@@ -18,8 +18,8 @@ import java.util.Locale;
 public class CheckJobService extends JobService {
 
     static final int JOB_ID = 4201;
-    private static final long INTERVAL_MS = 3L * 60 * 60 * 1000;   // every ~3 hours
-    private static final long FLEX_MS = 60L * 60 * 1000;           // within the last hour of each window
+    private static final long INTERVAL_MS = 60L * 60 * 1000;       // about hourly (a ~20 KB download)
+    private static final long FLEX_MS = 20L * 60 * 1000;           // Android may run it in the last 20 min of each hour
     private static final long STALE_MS = 9L * 24 * 60 * 60 * 1000; // no new issue for 9 days
 
     static void ensureScheduled(Context c) {

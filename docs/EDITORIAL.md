@@ -67,7 +67,7 @@ and safety-alert wording. Fix or drop anything you can't verify, and note gaps i
 1. Write `issues/<id>.json` following the schema below, which is exactly the shape of `issues/2026-09-27.json`.
 2. Run `python3 tools/build_feed.py`. It validates every issue and rebuilds `feed.json`; fix anything it reports.
 3. Commit only `issues/<id>.json` and `feed.json`, with the message `Issue <number>: <title>`, and push to `main`.
-   The Android app picks the new issue up within a few hours and notifies the reader.
+   The Android app picks the new issue up within about an hour and notifies the reader.
 4. Don't modify the app, tools or earlier issues unless correcting a factual error; if you do correct one, keep its
    `id` and `number` and say what changed in the commit message.
 

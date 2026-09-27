@@ -14,7 +14,7 @@ A weekly, coffee-break-length digest of anaesthesia research, safety and supply 
 
 1. Every Monday morning (Perth time), a scheduled Claude task researches the previous week, writes
    `issues/<date>.json`, runs `tools/build_feed.py`, and pushes to `main`.
-2. The app checks `feed.json` every few hours in the background. When a new issue appears, it saves it on the phone and
+2. The app checks `feed.json` about every hour in the background. When a new issue appears, it saves it on the phone and
    posts a notification. Old issues stay on the phone, so the archive and search work offline.
 3. If no new issue has arrived after 9 days, the app sends a low-priority "hasn't arrived" notification.
 
