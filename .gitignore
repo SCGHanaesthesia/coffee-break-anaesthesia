@@ -1,0 +1,5 @@
+app/build/
+app/assets/seed.json
+*.keystore
+*.idsig
+__pycache__/

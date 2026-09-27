@@ -1,0 +1,351 @@
+{
+  "id": "2026-09-27",
+  "number": 1,
+  "title": "Infant airways, a propofol squeeze, and the TIVA answer",
+  "published": "2026-09-27T15:00:00+08:00",
+  "window": {
+    "from": "2026-09-20",
+    "to": "2026-09-27"
+  },
+  "readMinutes": 10,
+  "tldr": [
+    "Propofol 1% 100 mL (B. Braun) is unavailable until mid-January and several sugammadex brands are short or gone, so check with theatre pharmacy.",
+    "In neonates and infants, videolaryngoscopy gave a better view but lower first-attempt success than direct laryngoscopy (Japanese registry, 3,250 intubations).",
+    "Catch-up: VITAL (JAMA, August) found TIVA versus volatile made no difference to days at home or survival in 2,508 over-50s having major surgery. Choose on PONV risk and patient factors."
+  ],
+  "sections": [
+    {
+      "id": "research",
+      "title": "Research",
+      "items": [
+        {
+          "id": "jpedia-vl-infants",
+          "title": "Videolaryngoscopy in neonates and infants: better view, lower first-pass success",
+          "source": "BJA",
+          "date": "2026-09-23",
+          "tags": [
+            "Airway",
+            "Paediatric"
+          ],
+          "design": "Registry cohort (J-PEDIA, Japan 2022–25) · 3,250 intubations · propensity-weighted",
+          "finding": "Compared with direct laryngoscopy, using a videolaryngoscope for the first attempt gave a better glottic view (+17.8 percentage points). But first-attempt success was lower (adjusted RR 0.89, 95% CI 0.83–0.96) and desaturation was about twice as common (adjusted RR 2.18).",
+          "trust": "Moderate. It's observational, and VL was probably chosen for harder airways despite the propensity weighting.",
+          "soWhat": "In small infants a better view on the screen didn't translate into first-attempt success. Train tube delivery and technique rather than assuming VL is automatically the safer first choice.",
+          "verdict": "consider",
+          "url": "https://doi.org/10.1016/j.bja.2026.07.070"
+        },
+        {
+          "id": "ijv-compression-subclavian",
+          "title": "Compress the internal jugular while threading a subclavian wire: fewer malpositioned lines",
+          "source": "Anaesthesia",
+          "date": "2026-09-24",
+          "tags": [
+            "Vascular access"
+          ],
+          "design": "Single-centre RCT · elective neurosurgical adults · n=315",
+          "finding": "During ultrasound-guided right infraclavicular subclavian cannulation, pressing the probe on the same-side internal jugular vein while advancing the guidewire cut catheter malposition from 13% to 6% (OR 0.42, 95% CI 0.18–0.95). It added about 25 seconds.",
+          "trust": "Moderate. A single centre and a single surgical population, and the confidence interval sits close to no effect.",
+          "soWhat": "A free, low-risk manoeuvre to try on your next subclavian line, and an easy one to teach.",
+          "verdict": "consider",
+          "url": "https://doi.org/10.1111/anae.70419"
+        },
+        {
+          "id": "catastrophe-survey",
+          "title": "After a perioperative catastrophe, most anaesthetists feel unfit to carry on",
+          "source": "Anesthesiology",
+          "date": "2026-09-21",
+          "tags": [
+            "Wellbeing",
+            "Safety"
+          ],
+          "design": "Survey of US ASA members, repeating a 2012 survey · n=1,725 · 7% response",
+          "finding": "94% had been involved in at least one catastrophe. After their most memorable one, 69% felt impaired in the first four hours and 62% at 24 hours. About one in five said they never fully recovered emotionally, the same as in 2012. Formal debriefs and time off were uncommon, and nearly a quarter considered leaving the specialty.",
+          "trust": "Low to moderate. A 7% response invites selection bias and recall bias is likely, but the results point the same way as the 2012 survey.",
+          "soWhat": "Relief from the list and a structured debrief should be automatic after a catastrophe, not something people have to ask for. Worth checking what your department's actual process is.",
+          "verdict": "consider",
+          "url": "https://doi.org/10.1097/aln.0000000000006357"
+        },
+        {
+          "id": "prehab-nma",
+          "title": "Which prehab exercise works? Aerobic plus breathing training leads",
+          "source": "BJA",
+          "date": "2026-09-22",
+          "tags": [
+            "Periop medicine"
+          ],
+          "design": "Network meta-analysis · 96 RCTs · n=7,396",
+          "finding": "Aerobic, respiratory (pulmonary) and functional training combined ranked best for fewer complications (OR 0.16, very low certainty) and shorter stay (−3.4 days, moderate certainty). Aerobic plus strength training ranked best for quality of life. No programme improved physical recovery.",
+          "trust": "Low. About three-quarters of the trials were at high risk of bias, heterogeneity was large, and a complication effect this big hints at small-study bias.",
+          "soWhat": "If you refer patients to prehab or design a programme, prioritise aerobic work and respiratory training. Don't promise a faster functional recovery.",
+          "verdict": "know",
+          "url": "https://doi.org/10.1016/j.bja.2026.08.052"
+        },
+        {
+          "id": "nirs-cardiac-ma",
+          "title": "NIRS-guided cardiac surgery: a hint of cognitive benefit, nothing harder",
+          "source": "BJA",
+          "date": "2026-09-22",
+          "tags": [
+            "Cardiac",
+            "Neuro"
+          ],
+          "design": "Meta-analysis · 17 RCTs · n=2,288",
+          "finding": "NIRS-guided management reduced early postoperative cognitive decline (RR 0.65, 95% CI 0.42–0.99, moderate certainty). It did not clearly reduce delirium (RR 0.78, 0.56–1.09), stroke or mortality.",
+          "trust": "Low to moderate. The trials were mostly small and single-centre, with different thresholds and response algorithms, and cognition was measured with brief screens in the first week.",
+          "soWhat": "Not enough to make cerebral oximetry mandatory. If you use it, pair it with a defined response algorithm, as the trials did.",
+          "verdict": "know",
+          "url": "https://doi.org/10.1016/j.bja.2026.09.012"
+        },
+        {
+          "id": "mh-uk-epidemiology",
+          "title": "Malignant hyperthermia risk isn't one-size-fits-all across RYR1 variants",
+          "source": "BJA",
+          "date": "2026-09-22",
+          "tags": [
+            "Safety",
+            "Genetics"
+          ],
+          "design": "UK MH Unit data 1988–2025 · 375 index cases and 502 relatives · Bayesian modelling",
+          "finding": "The estimated prevalence of clinical MH susceptibility was about 1 in 38,800. Risk varied up to 125-fold between 28 RYR1 variants. The falling incidence didn't fit simple autosomal dominant inheritance, and the authors favour a threshold model.",
+          "trust": "Moderate. The conclusions depend heavily on the modelling, and UK Biobank under-represents non-White populations.",
+          "soWhat": "Useful when counselling families about a variant result: carrying an RYR1 variant doesn't carry a fixed risk. Trigger-free anaesthesia for susceptible patients doesn't change.",
+          "verdict": "know",
+          "url": "https://doi.org/10.1016/j.bja.2026.08.048"
+        },
+        {
+          "id": "ketamine-spine-opioids",
+          "title": "Intraoperative ketamine didn't reduce long-term opioid use after spine surgery",
+          "source": "Anesthesia & Analgesia",
+          "date": "2026-09-23",
+          "tags": [
+            "Pain",
+            "Pharmacology"
+          ],
+          "design": "Propensity-matched EHR cohort (TriNetX, US) · about 55,700 patients",
+          "finding": "In opioid-naive patients, intraoperative ketamine was linked to slightly more opioid prescribing at 48 hours (RR 1.23) and 6 weeks (RR 1.14), and no difference at 3–12 months. In patients with opioid-use disorder, only the 48-hour difference was seen.",
+          "trust": "Low. There were no dose or timing data, and ketamine was probably given to the harder cases.",
+          "soWhat": "Don't present intraoperative ketamine as protection against persistent opioid use after spine surgery; dose-dependent effects weren't tested. It may still earn its place for acute pain in selected patients.",
+          "verdict": "know",
+          "url": "https://doi.org/10.1213/ane.0000000000008322"
+        },
+        {
+          "id": "vital-tiva-volatile",
+          "title": "TIVA or volatile for major surgery in over-50s: no difference in recovery",
+          "source": "JAMA",
+          "date": "2026-08-12",
+          "dateNote": "Published online 12 Aug; catch-up in case you missed it",
+          "tags": [
+            "Catch-up",
+            "Technique",
+            "Periop outcomes"
+          ],
+          "design": "Pragmatic open-label RCT · 49 UK NHS hospitals · n=2,508",
+          "finding": "Adults aged 50 and over having elective major non-cardiac surgery were randomised to propofol TIVA or volatile maintenance. Days alive and at home at 30 days were almost identical (22.5 vs 22.4; IRR 1.00, 95% CI 0.99–1.02). Mortality to 6 months, major complications (about 12% in each arm) and day-3 QoR-15 did not differ either.",
+          "trust": "High for the main question: large, multicentre and pragmatic. It was open-label, most patients were lower-risk and having abdominal cancer surgery, few were frail, and delirium was checked only once.",
+          "soWhat": "Choose the maintenance technique on patient factors, not on hoped-for outcome gains. PONV favours TIVA (day-1 PONV 27% vs 36%, exploratory). Both awareness cases were in the TIVA arm, a reminder to use processed EEG and to check the line.",
+          "verdict": "reassure",
+          "url": "https://doi.org/10.1001/jama.2026.11065"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Safety & supply",
+      "items": [
+        {
+          "id": "propofol-100ml-shortage",
+          "title": "Propofol 1% 100 mL: B. Braun vials unavailable until mid-January",
+          "source": "TGA shortage database",
+          "date": "2026-09-11",
+          "dateNote": "Active until 15 Jan 2027",
+          "tags": [
+            "Supply"
+          ],
+          "finding": "B. Braun's Propofol-Lipuro 1% 100 mL is listed as unavailable from 11 Sep 2026 to 15 Jan 2027 because of a jump in demand. Fresenius Kabi's 100 mL vial was also briefly limited (16–23 Sep).",
+          "soWhat": "TIVA and TCI lists that rely on 100 mL vials may feel this. Ask theatre pharmacy which brand and size you're getting.",
+          "verdict": "act",
+          "url": "https://apps.tga.gov.au/shortages/Search/Details/propofol"
+        },
+        {
+          "id": "sugammadex-supply",
+          "title": "Sugammadex: several brands short, others available",
+          "source": "TGA shortage database",
+          "date": "2026-09-27",
+          "dateNote": "Several active listings",
+          "tags": [
+            "Supply"
+          ],
+          "finding": "Viatris 200 mg/2 mL is limited until 23 Oct and Medsurge 500 mg/5 mL until 30 Sep. Accord 200 mg/2 mL has been unavailable since September 2025 and isn't expected back until 31 Mar 2027, and Teva's has been discontinued. The TGA notes other brands remain available.",
+          "soWhat": "Expect brand switches on the drug trolley, and give trainees a heads-up.",
+          "verdict": "act",
+          "url": "https://apps.tga.gov.au/shortages/Search/Details/sugammadex%20sodium"
+        },
+        {
+          "id": "anzca-mtdna-sevoflurane",
+          "title": "ANZCA updates its alert on a mitochondrial variant and sensitivity to volatile agents",
+          "source": "ANZCA",
+          "date": "2026-09-17",
+          "dateNote": "Alert first issued 4 Jun; updated 17 Sep",
+          "tags": [
+            "Safety",
+            "Genetics"
+          ],
+          "finding": "Fewer than 20 cases over more than 20 years, mostly children and mainly from Venezuela and Chile, of severe neurological deterioration after general anaesthesia have been linked to the mitochondrial DNA variant m.11232T>C, associated with Carabobo state in Venezuela. Volatile agents, particularly sevoflurane, appear to be the main trigger, though ANZCA says the evidence that propofol is safer remains somewhat speculative. The update notes that testing for the variant may now be funded in Australia.",
+          "soWhat": "For patients with maternal Venezuelan ancestry and a suggestive family history, plan a volatile-free anaesthetic (TIVA or regional). Consider whether preadmission screening should ask about this.",
+          "verdict": "act",
+          "url": "https://www.anzca.edu.au/news-and-safety-alerts/reports-of-susceptibility-to-general-anaesthetics-in-certain-patients-of-venezuelan-origin"
+        },
+        {
+          "id": "anzca-sq-september",
+          "title": "IV line dead space and IV tramadol dosing: ANZCA's September safety update",
+          "source": "ANZCA",
+          "date": "2026-09-17",
+          "tags": [
+            "Safety",
+            "Pharmacology"
+          ],
+          "finding": "ANZCA updated its alert on drugs left in IV line dead space. In the index case, residual rocuronium from an unflushed line caused re-curarisation in recovery, and small-volume in-line fluid warmers were singled out. The update also reports TGA advice that the recommended maximum daily dose of IV tramadol for acute postoperative pain is 400 mg in otherwise healthy adults.",
+          "soWhat": "Flush lines and remove dead-space devices before transfer, and check that local order sets reflect the 400 mg/day recommended maximum for IV tramadol. The line case would make a good simulation scenario.",
+          "verdict": "act",
+          "url": "https://www.anzca.edu.au/news-and-safety-alerts/safety-and-quality-september-update"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Guidelines & news",
+      "items": [
+        {
+          "id": "specialist-fees-consultation",
+          "title": "Government consults on 'excessive' specialist fees, with anaesthetists in the spotlight",
+          "source": "Department of Health, Disability and Ageing",
+          "date": "2026-09-09",
+          "dateNote": "Submissions close 19 Oct",
+          "tags": [
+            "Private practice",
+            "Policy"
+          ],
+          "finding": "The consultation sets out six options, from naming fee outliers to caps and penalties. Media coverage singled out anaesthetists as charging furthest above the benchmark among in-hospital specialists. The ASA has argued for system-wide fixes instead of blanket caps: Medicare indexation, transparency on insurer contributions, and informed financial consent.",
+          "soWhat": "Submissions close 19 Oct. It's a good moment to check your informed financial consent process against the ASA's guidance.",
+          "verdict": "know",
+          "url": "https://consultations.health.gov.au/medicare-benefits-and-digital-health-division/options-to-address-excessive-fees/"
+        },
+        {
+          "id": "anzca-primary-results",
+          "title": "ANZCA 2026.2 Primary written results are out, with vivas in October",
+          "source": "ANZCA",
+          "date": "2026-09-22",
+          "tags": [
+            "Training",
+            "Exams"
+          ],
+          "finding": "The list of candidates invited to the Primary viva has been published. The vivas run in October; exact dates and venues weren't on the notice.",
+          "soWhat": "If you supervise or examine, now is the time for viva practice with invited trainees.",
+          "verdict": "know",
+          "url": "https://www.anzca.edu.au/news-and-safety-alerts/2026-2-primary-exam-written-results"
+        },
+        {
+          "id": "pain-education-standards",
+          "title": "The medical college presidents endorse national pain education standards",
+          "source": "ANZCA / Faculty of Pain Medicine",
+          "date": "2026-09-18",
+          "tags": [
+            "Education",
+            "Pain"
+          ],
+          "finding": "The Council of Presidents of Medical Colleges has endorsed the Australian Standards for Health Practitioner Pain Management Education, supporting consistent pain teaching across colleges and education providers. The endorsement isn't binding.",
+          "soWhat": "Useful background for anyone designing curricula or teaching sessions; no action needed.",
+          "verdict": "know",
+          "url": "https://www.anzca.edu.au/pain-education-standards/education-standards-in-the-news/australian-pain-education-standards-endorsed-by-cpmc"
+        },
+        {
+          "id": "rcoa-new-frca",
+          "title": "The UK's redesigned FRCA exam gets GMC approval",
+          "source": "Royal College of Anaesthetists",
+          "date": "2026-09-17",
+          "tags": [
+            "Exams",
+            "International"
+          ],
+          "finding": "The new FRCA format launches in July 2027. The first year is a transition period for candidates who have already banked Primary OSCE or SOE results.",
+          "soWhat": "Of interest if you mentor UK-trained registrars or follow exam design; little direct impact in Australia.",
+          "verdict": "know",
+          "url": "https://www.rcoa.ac.uk/news/new-rcoa-exams-approved-gmc"
+        }
+      ]
+    }
+  ],
+  "quickHits": [
+    {
+      "text": "An EMR prompt listing 51 qualifying conditions raised documented ASA ≥3 from 53% to 62% at one US centre (47% to 48% at a control centre). That matters wherever ASA grade drives risk adjustment or RVG modifiers.",
+      "source": "Anesthesiology",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1097/aln.0000000000006388"
+    },
+    {
+      "text": "Ilofotase alfa didn't reduce AKI after complex cardiac surgery in patients with renal impairment (phase 2 RCT, n=244).",
+      "source": "Intensive Care Medicine",
+      "date": "2026-09-21",
+      "url": "https://link.springer.com/article/10.1007/s00134-026-08596-y"
+    },
+    {
+      "text": "Pooled across the studies with usable data (28 of 50), theatre noise averaged about 71 dB(A), with ENT and orthopaedics the loudest. That's well above WHO guidance for hospital settings.",
+      "source": "BJA",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.bja.2026.08.053"
+    },
+    {
+      "text": "INSPECT-SR is a new 21-check tool for judging whether an RCT is trustworthy. It's handy for journal club, given anaesthesia's past trial-fabrication scandals.",
+      "source": "BMJ",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100611"
+    },
+    {
+      "text": "One in eight women had genito-pelvic pain two months after vaginal birth (French national survey, n=5,802). Low satisfaction with inpatient pain relief was a strong marker.",
+      "source": "Anesthesiology",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.1097/aln.0000000000006365"
+    },
+    {
+      "text": "ObsQoR-10: the suggested minimal important difference is 7–10 points, so smaller gaps between arms probably don't matter to patients.",
+      "source": "Anaesthesia",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.1111/anae.70363"
+    },
+    {
+      "text": "Basilar artery occlusion at 4.5–24 hours: giving tenecteplase before thrombectomy didn't improve 90-day outcomes (ATTENTION LATE, n=330).",
+      "source": "JAMA",
+      "date": "2026-09-23",
+      "url": "https://doi.org/10.1001/jama.2026.15496"
+    },
+    {
+      "text": "Catch-up: PUMA's new guidelines for providing a foundation for airway management, and for tracheal extubation, came out in Anaesthesia on 26–27 Aug.",
+      "source": "Anaesthesia",
+      "date": "2026-08-27",
+      "url": "https://doi.org/10.1111/anae.70366"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2026-09-29",
+      "label": "ACSQHC consultation on infection prevention guidelines closes"
+    },
+    {
+      "date": "2026-10-08",
+      "label": "ASA/NZSA Combined Scientific Congress, Hunter Valley (8–11 Oct)"
+    },
+    {
+      "date": "2026-10-10",
+      "label": "ESICM LIVES, Lisbon (10–14 Oct), where new ICU trials are likely"
+    },
+    {
+      "date": "2026-10-16",
+      "label": "ANESTHESIOLOGY 2026, San Diego (16–20 Oct)"
+    },
+    {
+      "date": "2026-10-19",
+      "label": "Specialist fees consultation closes"
+    }
+  ],
+  "coverage": "Several publisher and TGA pages blocked automated reading this week, so some numbers come from abstracts in indexing services rather than the journal page. The European Journal of Anaesthesiology, Journal of Clinical Anesthesia and Anaesthesia and Intensive Care weren't fully checked."
+}
