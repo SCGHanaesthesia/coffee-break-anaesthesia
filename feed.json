@@ -1,11 +1,212 @@
 {
  "schema": 1,
- "updated": "2026-09-27T15:00:00+08:00",
+ "updated": "2026-10-05T07:00:00+08:00",
  "app": {
   "latestVersion": 1,
   "apkUrl": "https://github.com/SCGHanaesthesia/coffee-break-anaesthesia/raw/main/app/coffee-break.apk"
  },
  "issues": [
+  {
+   "id": "2026-10-05",
+   "number": 2,
+   "title": "Blood choices, GLP-1 stomachs and a quiet research week",
+   "published": "2026-10-05T07:00:00+08:00",
+   "window": {
+    "from": "2026-09-28",
+    "to": "2026-10-05"
+   },
+   "readMinutes": 7,
+   "tldr": [
+    "Jehovah's Witnesses now leave decisions on donor red cells, plasma, platelets and white cells to individual conscience (whole blood is still refused). Don't assume either way: ask each patient specifically and document it.",
+    "In a UK national cohort of 47,039 patients, regurgitation or aspiration was about 11 times more common in GLP-1 RA users (1 in 71 vs 1 in 802), and over 40% got the drug outside usual prescribing. Ask about online supplies.",
+    "Supply: Lupin's sugammadex is being discontinued (deletion 31 Jan 2027), Viatris 200 mg/2 mL stays limited to 23 Oct, and B. Braun propofol 1% 100 mL is still out until mid-January. A thin week for new papers, see the coverage note."
+   ],
+   "sections": [
+    {
+     "id": "research",
+     "title": "Research",
+     "items": [
+      {
+       "id": "glp1-uk-national-cohort",
+       "title": "GLP-1 RAs and the stomach: a UK national cohort puts a number on regurgitation",
+       "source": "Anaesthesia",
+       "date": "2026-09-17",
+       "dateNote": "Published mid-September (16–17 Sep) alongside the Association of Anaesthetists annual meeting in Liverpool; catch-up, as it missed the last issue",
+       "tags": [
+        "Catch-up",
+        "Airway",
+        "Periop medicine"
+       ],
+       "design": "Prospective national multicentre cohort · 119 UK sites · n=47,039",
+       "finding": "Across adults having elective or emergency procedures with anaesthetic care, 1,348 patients (2.9%, about 1 in 36) were taking a GLP-1 receptor agonist. Regurgitation or pulmonary aspiration occurred in about 1 in 71 GLP-1 RA users versus 1 in 802 non-users, roughly an 11-fold difference. More than 40% of users obtained the drug outside GP or hospital prescribing, for example from online pharmacies.",
+       "trust": "Moderate. It's large, prospective and national, but observational: users differ from non-users, and the 11-fold figure is the headline ratio from the press release. We couldn't open the full paper to check adjusted estimates or event counts.",
+       "soWhat": "Ask every patient directly about GLP-1 RAs, including online or compounded supplies, because the medication list won't always show them. Follow your local GLP-1 RA pathway, and keep regurgitation in mind at induction and emergence.",
+       "verdict": "consider",
+       "url": "https://doi.org/10.1111/anae.70380"
+      },
+      {
+       "id": "bmj-robotic-arthroplasty",
+       "title": "Robotic hip and knee replacement: no better than conventional at 2.5 years",
+       "source": "BMJ",
+       "date": "2026-10-01",
+       "tags": [
+        "Orthopaedics",
+        "Periop outcomes"
+       ],
+       "design": "Twin target-trial emulations (separate hip and knee papers) · UK National Joint Registry 2018–24 · hips n=666,283 (10,203 robotic), knees n=697,145 (22,111 robotic)",
+       "finding": "After propensity-score matching, robotic-assisted surgery showed no difference from conventional surgery in implant survival, overall revision or intraoperative complications over a mean 2.5 years. Robotic hips had fewer revisions for implant malpositioning, but no fewer revisions overall. The authors put the extra cost at about £1m upfront plus £1,000–2,500 per patient.",
+       "trust": "Moderate. Very large, but observational, with possible unmeasured confounding (surgeon experience, case selection) and short follow-up. Functional outcomes weren't measured; RCTs such as RACER are still running.",
+       "soWhat": "Nothing changes for the anaesthetic, but expect robotic arthroplasty to come up when theatre time and budgets are planned. So far the extra cost isn't buying lower overall revision rates.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1136/bmj-2026-100709"
+      }
+     ]
+    },
+    {
+     "id": "safety",
+     "title": "Safety & supply",
+     "items": [
+      {
+       "id": "jw-blood-components",
+       "title": "Jehovah's Witnesses: blood components now a matter of individual conscience",
+       "source": "APSF",
+       "date": "2026-09-24",
+       "dateNote": "Policy announced 18 Sep; APSF practice update 24 Sep",
+       "tags": [
+        "Safety",
+        "Transfusion",
+        "Consent"
+       ],
+       "finding": "The Governing Body of Jehovah's Witnesses announced on 18 Sep that accepting donor red cells, white cells, plasma or platelets is now a personal decision. The position against whole blood is unchanged. This follows a March 2026 change allowing autologous collection, storage and transfusion. The APSF says not to assume any patient now accepts blood products, to discuss preferences directly and specifically before an anaesthetic where major bleeding is possible, to document them clearly, and to reconfirm previously documented choices.",
+       "soWhat": "Advance directives and consent forms written before September may no longer reflect what a patient would accept. Revisit them for elective cardiac, obstetric and major surgery, and flag the change to your blood management and obstetric teams. We found no ANZCA or Lifeblood statement yet.",
+       "verdict": "act",
+       "url": "https://www.apsf.org/news-updates/practice-update-blood-component-decisions-for-jehovahs-witness-patients/"
+      },
+      {
+       "id": "sugammadex-propofol-supply",
+       "title": "Sugammadex: Lupin brand to be discontinued; propofol 100 mL still short",
+       "source": "TGA shortage database",
+       "date": "2026-10-04",
+       "dateNote": "As listed when we checked on 4–5 Oct; the TGA pages loaded inconsistently, so check live",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Sugammadex LAPL (Lupin) is listed as to be discontinued, with supply reducing until exhausted and market deletion on 31 Jan 2027. Viatris 200 mg/2 mL remains limited until 23 Oct, Accord remains unavailable until 31 Mar 2027, and Medsurge 500 mg/5 mL was still listed as limited even though its expected end date of 30 Sep has passed. The TGA notes alternative brands are available. B. Braun Propofol-Lipuro 1% 100 mL remains unavailable until 15 Jan 2027.",
+       "soWhat": "Expect more sugammadex brand changes into next year. Ask pharmacy which brand you'll be stocking after January, and keep neostigmine-based reversal and quantitative monitoring familiar to trainees.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/Prod/msi/Search/Details/sugammadex%20sodium"
+      },
+      {
+       "id": "draeger-ventstar-neo-recall",
+       "title": "Neonatal resuscitation hoses: Dräger VentStar Resus Neo recall is Class I in the US",
+       "source": "FDA",
+       "date": "2026-10-02",
+       "dateNote": "FDA early alert 3 Sep; classified Class I on 2 Oct",
+       "tags": [
+        "Safety",
+        "Paediatric",
+        "Equipment"
+       ],
+       "finding": "Users found cracks in the hose of VentStar Resus Neo breathing circuits (model MP00310) before use. A cracked hose may leak or come off, restricting ventilation or delaying therapy, with a risk of desaturation, hypoxia or death. Dräger advises inspecting hoses before use and discarding any with cracks or a detached hose. No serious injuries or deaths had been reported as of 3 Sep.",
+       "soWhat": "This is a US recall and we couldn't confirm whether these circuits are supplied in Australia. If your birth suite or neonatal resuscitaires use Dräger circuits, check the model and add a hose check to the setup routine.",
+       "verdict": "act",
+       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-breathing-circuit-issue-draeger"
+      }
+     ]
+    },
+    {
+     "id": "news",
+     "title": "Guidelines & news",
+     "items": [
+      {
+       "id": "icm-volatile-sedation-ards",
+       "title": "Inhaled sedation in ARDS: experts say keep it inside trials for now",
+       "source": "Intensive Care Medicine",
+       "date": "2026-09-28",
+       "tags": [
+        "Critical care",
+        "Pharmacology"
+       ],
+       "finding": "An international narrative review on volatile sedation for ARDS weighs the physiological rationale against the trial evidence, including SESAR, where sevoflurane gave fewer ventilator-free days and higher mortality than propofol. The authors conclude that routine clinical use of volatile ICU sedation in ARDS isn't currently recommended outside clinical trials.",
+       "soWhat": "If your ICU has, or is considering, an anaesthetic conserving device, reserve it for trials or specific indications rather than routine ARDS sedation.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1007/s00134-026-08613-0"
+      }
+     ]
+    }
+   ],
+   "quickHits": [
+    {
+     "text": "PRESSURE (17 UK paediatric ICUs) compared a permissive target, mean arterial pressure at the 5th centile for age, with usual care in ventilated children on vasoactive drugs. It came out in JAMA on 28 Sep, but we couldn't open the results this week. Worth reading if you do paediatric or PICU work.",
+     "source": "JAMA",
+     "date": "2026-09-28",
+     "url": "https://doi.org/10.1001/jama.2026.19747"
+    },
+    {
+     "text": "The Million Anesthesia Cases paediatric fasting analysis is now a full BJA paper (e-pub 28 Sep). In the ANESTHESIOLOGY 2025 abstract (71,835 children, 12 US hospitals), the median clear-fluid fast in 2024 was 8.7 hours, and infants' fasts weren't improving.",
+     "source": "BJA / ASA",
+     "date": "2026-09-28",
+     "url": "https://www.asahq.org/about-asa/newsroom/news-releases/2025/10/children-fast-from-clear-liquids-much-longer-before-surgery-than-guidelines-recommend"
+    },
+    {
+     "text": "In two Philadelphia hospitals, dexmedetomidine use in admissions with opioid use disorder rose from about 6% to about 20% (about 32% in the final quarter) after medetomidine appeared in the fentanyl supply. In that last quarter, a third of patients needed ICU-level care. It's an early warning of a severe withdrawal syndrome.",
+     "source": "JAMA Internal Medicine",
+     "date": "2026-09-28",
+     "url": "https://doi.org/10.1001/jamainternmed.2026.4568"
+    },
+    {
+     "text": "A multicentre interrupted time-series study looked at shutting off piped nitrous oxide alongside decision support to cut anaesthetic emissions. It's useful background if your hospital is decommissioning its N2O manifold, though we couldn't open the results.",
+     "source": "Anesthesia & Analgesia",
+     "date": "2026-09-28",
+     "url": "https://doi.org/10.1213/ANE.0000000000008319"
+    },
+    {
+     "text": "Stem cell-derived human brain 'assembloids' reproduced the slow, synchronised waves of propofol anaesthesia without a thalamus. Lab work, but a neat teaching point on how anaesthesia might work.",
+     "source": "BJA (UCLA release)",
+     "date": "2026-10-01",
+     "url": "https://newsroom.ucla.edu/releases/stem-cell-derived-brain-models-offer-a-new-window-into-how-anesthesia-works"
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-10-08",
+     "label": "ASA/NZSA Combined Scientific Congress, Hunter Valley (8–11 Oct)"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "ESICM LIVES, Lisbon (10–14 Oct), where new ICU trials are likely"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "WA ACE M&M workshop, ANZCA WA office, Osborne Park and Zoom (bring a case)"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "ANESTHESIOLOGY 2026, San Diego (16–20 Oct); House committee inquiry submissions on specialist access close"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "Specialist fees consultation closes; ANZCA 2026.2 Primary vivas, Brisbane (19–21 Oct)"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "Expected end of the Viatris sugammadex 200 mg/2 mL shortage"
+    },
+    {
+     "date": "2026-10-28",
+     "label": "SPANZA/ANZAPS paediatric anaesthesia conference, Surfers Paradise (28–31 Oct)"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "ANZCA Cardiac, Thoracic, Vascular and Perfusion SIG meeting, Surfers Paradise (30–31 Oct)"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "ANZCA 2026.2 Final vivas, Brisbane (5–7 Nov), in the new three-day format"
+    }
+   ],
+   "coverage": "A hard week to read. Most publisher sites (BJA, Wiley, LWW, JAMA Network, NEJM, Lancet, PubMed) blocked automated reading, and search indexes lagged behind the window. So we could confirm several in-window papers but not their results, and left them out rather than guess: J-PEDIA supraglottic airways in children with airway hyperresponsiveness, cannabis and anaesthetic dosing, and a French survey on neuromuscular blockade guideline adherence (all BJA). The PRESSURE results and the GLP-1 cohort's adjusted estimates also couldn't be checked. NEJM, Lancet, Annals of Surgery, BJS, CCM, EJA, RAPM, AIC and JCA weren't checked. We found no ANZCA safety alert or TGA recall dated in the window, but the ANZCA and TGA sites didn't fully load. TGA shortage listings were inconsistent between page versions, so check the live database."
+  },
   {
    "id": "2026-09-27",
    "number": 1,
