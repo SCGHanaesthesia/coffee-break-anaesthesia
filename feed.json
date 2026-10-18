@@ -1,11 +1,300 @@
 {
  "schema": 1,
- "updated": "2026-10-05T07:00:00+08:00",
+ "updated": "2026-10-19T07:06:03+08:00",
  "app": {
   "latestVersion": 1,
   "apkUrl": "https://github.com/SCGHanaesthesia/coffee-break-anaesthesia/raw/main/app/coffee-break.apk"
  },
  "issues": [
+  {
+   "id": "2026-10-19",
+   "number": 3,
+   "title": "Septic shock in theatre, dialysis choices and more brands bowing out",
+   "published": "2026-10-19T07:06:03+08:00",
+   "window": {
+    "from": "2026-10-06",
+    "to": "2026-10-19"
+   },
+   "readMinutes": 10,
+   "tldr": [
+    "In 584 patients with septic shock having source-control surgery, adding dobutamine (5 µg/kg/min) to noradrenaline during the operation cut postoperative AKI from 34.7% to 22.8% (JAMA). It's a surrogate outcome with more tachycardia, so it's worth a look but isn't settled.",
+    "A big JAMA/NEJM week for ICU: ICRAKI found starting with intermittent haemodialysis wasn't non-inferior to CRRT and 90-day mortality was higher (63.1% vs 53.5%). SAVE-ICU's isoflurane sedation and VASSPR's earlier vasopressin threshold both made no difference to mortality.",
+    "Supply: Juno sugammadex is being discontinued (deletion 31 Dec), and Hypnovel 5 mg/5 mL midazolam (30 Oct) and Juno noradrenaline 2 mg/2 mL (30 Nov) are leaving the market. Other brands are available, but expect trolley changes. This issue covers two weeks, as there was no issue on 12 Oct."
+   ],
+   "sections": [
+    {
+     "id": "research",
+     "title": "Research",
+     "items": [
+      {
+       "id": "dobutamine-septic-shock-surgery-aki",
+       "title": "Septic shock in theatre: adding dobutamine to noradrenaline reduced postoperative AKI",
+       "source": "JAMA",
+       "date": "2026-10-14",
+       "tags": [
+        "Periop medicine",
+        "Critical care",
+        "Pharmacology"
+       ],
+       "design": "Open-label multicentre RCT · 39 hospitals in China · n=584",
+       "finding": "Adults with septic shock having surgical source control were randomised to intraoperative dobutamine 5 µg/kg/min (halved if heart rate exceeded 130/min or arrhythmia developed) plus noradrenaline, or noradrenaline alone. New or worsening AKI within 7 days fell from 34.7% to 22.8% (adjusted RR 0.64, 95% CI 0.49–0.83). Day-28 mortality (16.2% vs 20.4%) and need for kidney replacement therapy didn't differ significantly, and tachycardia above 100/min was more common with dobutamine (41.0% vs 29.9%).",
+       "trust": "Moderate. It's a sizeable multicentre trial, but open-label, confined to Chinese tertiary centres, and the primary outcome is a surrogate. The control AKI rate was lower than the trial assumed when planning.",
+       "soWhat": "For the septic laparotomy at 2 am, low-dose dobutamine alongside noradrenaline is a plausible way to protect the kidneys. One trial with no hard-outcome benefit isn't enough to make it routine; watch the heart rate.",
+       "verdict": "consider",
+       "url": "https://doi.org/10.1001/jama.2026.21322"
+      },
+      {
+       "id": "icraki-ihd-vs-crrt",
+       "title": "ICRAKI: starting with intermittent haemodialysis wasn't non-inferior to CRRT",
+       "source": "NEJM",
+       "date": "2026-10-14",
+       "tags": [
+        "Critical care",
+        "Renal"
+       ],
+       "design": "Open-label non-inferiority RCT · 42 French ICUs · n=554 (535 analysed) · stopped early",
+       "finding": "Critically ill adults with AKI needing renal replacement started on either intermittent haemodialysis or continuous RRT. The primary outcome (death, dialysis dependence or persisting kidney dysfunction at 90 days) occurred in 78.1% vs 71.6% (adjusted difference 6.28 points, 95% CI −1.22 to 13.79), so IHD failed the 7.5-point non-inferiority margin. Day-90 mortality, a secondary outcome, was 63.1% vs 53.5% (HR 1.30, 1.04–1.63).",
+       "trust": "Moderate. Stopping early, at about half the planned 1,000 patients, can exaggerate effects. The trial was open-label, and the delivered IHD dose was below target. The mortality finding is secondary.",
+       "soWhat": "Mainly for intensivists: it supports CRRT as the default first modality in ICU AKI. Worth knowing if you work in ICU or are handing over an unstable post-op patient who will need dialysis.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1056/NEJMoa2608397"
+      },
+      {
+       "id": "save-icu-isoflurane",
+       "title": "SAVE-ICU: isoflurane sedation in hypoxaemic respiratory failure didn't save lives",
+       "source": "JAMA",
+       "date": "2026-10-14",
+       "tags": [
+        "Critical care",
+        "Pharmacology"
+       ],
+       "design": "Pragmatic open-label RCT · 14 Canadian ICUs · n=780 analysed",
+       "finding": "Ventilated adults with acute hypoxaemic respiratory failure had isoflurane-based inhaled sedation or usual IV sedation. Hospital mortality was 42.5% vs 43.8% (RR 0.98, 95% CI 0.84–1.14), and ventilator-free days were similar. The inhaled group had fewer delirium- and coma-free days and needed more rescue therapy for hypoxaemia (63.9% vs 55.0%).",
+       "trust": "Moderate to high for the main question. It's a decent-sized multicentre trial, but open-label, with heavy IV co-sedation in the inhaled arm and some patients who never received isoflurane.",
+       "soWhat": "This fits the expert review in our last issue: volatile sedation in the ICU hasn't earned routine use. It doesn't speak to volatiles in theatre.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1001/jama.2026.18471"
+      },
+      {
+       "id": "vasspr-vasopressin-threshold",
+       "title": "VASSPR: starting vasopressin earlier in septic shock didn't change mortality",
+       "source": "JAMA",
+       "date": "2026-10-14",
+       "tags": [
+        "Critical care",
+        "Pharmacology"
+       ],
+       "design": "Pragmatic cluster-crossover strategy trial · 13 US hospitals · n=3,959",
+       "finding": "Hospitals were randomised month by month, crossing over between starting vasopressin 0.03 U/min at a noradrenaline-equivalent dose of 0.1 µg/kg/min and starting it at 0.4 µg/kg/min. 28-day mortality was 31.8% vs 33.0%, with no significant difference (P=.62). New or persisting cardiogenic shock was 7.4% with the lower threshold vs 6.3%.",
+       "trust": "Moderate. It's large and pragmatic, but the separation between strategies was modest and adherence to the lower threshold was under half, so a real effect could be diluted.",
+       "soWhat": "No reason to change when you add vasopressin. A noradrenaline-sparing second agent remains a judgement call, not a mortality intervention.",
+       "verdict": "reassure",
+       "url": "https://doi.org/10.1001/jama.2026.21333"
+      },
+      {
+       "id": "anh-women-cardiac",
+       "title": "Acute normovolaemic haemodilution in women having cardiac surgery: more hypotension, no fewer transfusions",
+       "source": "JAMA Surgery",
+       "date": "2026-10-14",
+       "tags": [
+        "Cardiac",
+        "Blood management"
+       ],
+       "design": "Post hoc secondary analysis of the ANH RCT · 32 centres, 11 countries · 405 women",
+       "finding": "Among women in the ANH trial (at least 650 mL whole blood withdrawn before bypass and returned after), allogeneic red cell transfusion was 38.8% with ANH vs 44.6% with usual care (RR 0.87, 95% CI 0.69–1.10). Intraoperative hypotension was more common with ANH (16.0% vs 4.8%; RR 3.30, 1.62–6.74), and ICU stay was about 21 hours longer.",
+       "trust": "Low to moderate. It's an exploratory subgroup that the trial wasn't powered for, so it generates hypotheses rather than answering the question.",
+       "soWhat": "If your unit uses ANH, be ready for intraoperative hypotension in women. Don't count on the transfusion benefit seen in the whole trial holding in this group until it's tested properly.",
+       "verdict": "consider",
+       "url": "https://doi.org/10.1001/jamasurg.2026.4786"
+      },
+      {
+       "id": "cgm-periop-icu-validation",
+       "title": "Continuous glucose monitors in theatre and ICU: reasonable accuracy, worse when perfusion is poor",
+       "source": "BJA",
+       "date": "2026-10-12",
+       "tags": [
+        "Periop medicine",
+        "Diabetes"
+       ],
+       "design": "Prospective observational validation study · Copenhagen · n=58",
+       "finding": "Dexcom G7 readings were compared with point-of-care glucose in people with diabetes having surgery or in ICU. Median absolute relative difference was 10.9%, and 98% of 1,212 paired readings fell in the clinically acceptable Clarke zones A and B. Accuracy was worse during hypoperfusion (MARD 4.5 points higher, 95% CI 2.3–6.7), and limits of agreement were wide (−5.6 to 3.4 mM).",
+       "trust": "Low to moderate. A small study of one device, and there was no hypoglycaemia, so accuracy in the range that matters most is untested.",
+       "soWhat": "More patients will turn up wearing a CGM. It's fine for trends in a stable patient, but check a capillary or arterial glucose before acting, especially on vasopressors or if you suspect a low.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1016/j.bja.2026.08.014"
+      },
+      {
+       "id": "profluid-ventilated-fluids",
+       "title": "PRoFLUID: most fluid in ventilated ICU patients isn't resuscitation",
+       "source": "JAMA",
+       "date": "2026-10-14",
+       "tags": [
+        "Critical care",
+        "Fluids"
+       ],
+       "design": "International prospective cohort · 206 ICUs in 41 countries · n=2,454",
+       "finding": "Median fluid input was 3.0 L on day 1, falling to 2.6 L by day 6. Over the first three days, maintenance or replacement (31.9%) and fluid creep from drugs and flushes (30.9%) far outweighed resuscitation alone (16.0%). Balanced crystalloids made up 48.9% of fluid and 0.9% saline 27.0%, with large variation between ICUs.",
+       "trust": "Good for describing practice; it's observational and doesn't link fluid volumes to outcomes.",
+       "soWhat": "Fluid creep from drug carriers and line flushes is a big share of the total, in theatre as well as ICU. It's worth counting when you're trying to run a patient dry.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1001/jama.2026.21291"
+      }
+     ]
+    },
+    {
+     "id": "safety",
+     "title": "Safety & supply",
+     "items": [
+      {
+       "id": "sugammadex-juno-discontinued",
+       "title": "Sugammadex: Juno brand being discontinued, Viatris still limited",
+       "source": "TGA shortage database",
+       "date": "2026-10-19",
+       "dateNote": "Status as checked on 19 Oct; the date the Juno listing first appeared isn't shown",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Sugammadex Juno 200 mg/2 mL is listed as 'to be discontinued', with deletion from the market on 31 Dec 2026 and reduced supply until stock runs out. Viatris 200 mg/2 mL remains limited until 23 Oct, Accord is unavailable until 31 Mar 2027, and Lupin is still due for deletion on 31 Jan 2027. Medsurge 500 mg/5 mL was resolved on 5 Oct.",
+       "soWhat": "That's another brand leaving a crowded field. Expect more brand switches, and check with theatre pharmacy which presentations you'll be stocking in the new year.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/shortages/Search/Details/sugammadex%20sodium"
+      },
+      {
+       "id": "brand-exits-midazolam-noradrenaline-dexmed",
+       "title": "Brand exits: Hypnovel midazolam, Juno noradrenaline and Precedex vials",
+       "source": "TGA shortage database",
+       "date": "2026-10-19",
+       "dateNote": "Status as checked on 19 Oct; the dates the listings first appeared aren't shown",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Three familiar presentations are listed as 'to be discontinued', each with alternative brands available: Hypnovel midazolam 5 mg/5 mL ampoules (deletion 30 Oct 2026), Noradrenaline Juno 2 mg/2 mL ampoules (deletion 30 Nov 2026, reduced supply until exhausted) and Precedex dexmedetomidine 200 µg/2 mL vials (deletion 1 Feb 2027).",
+       "soWhat": "None is a shortage of the drug itself, but the packaging on the trolley may change. Worth flagging to anaesthetic nurses and checking that infusion protocols name the drug and concentration, not a brand.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/shortages/Search/Details/midazolam"
+      },
+      {
+       "id": "shortages-dex-temgesic-mag",
+       "title": "Also listed: dexamethasone, magnesium and buprenorphine injection",
+       "source": "TGA shortage database",
+       "date": "2026-10-15",
+       "dateNote": "Listings starting or updated 12–15 Oct",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Dexamethasone Juno 4 mg/1 mL has been limited since 15 Oct, with supply expected 20 Nov. Medsurge magnesium sulfate 50% 2.5 g/5 mL has been limited since 13 Oct, until 13 Dec. The long-running Temgesic buprenorphine 300 µg/1 mL shortage (since 2021) was updated on 12 Oct and now runs to 31 Mar 2027. It's the only buprenorphine injection listed, and the TGA advises considering alternative treatments. DBL dexamethasone 8 mg/2 mL is due for deletion on 1 Oct 2027.",
+       "soWhat": "Dexamethasone and magnesium are brand substitutions; check what the obstetric unit is stocking. There's no alternative brand for injectable buprenorphine, so plan other options for patients who rely on it.",
+       "verdict": "know",
+       "url": "https://apps.tga.gov.au/Prod/msi/search"
+      }
+     ]
+    },
+    {
+     "id": "news",
+     "title": "Guidelines & news",
+     "items": [
+      {
+       "id": "anzca-nad-fasting-glp1",
+       "title": "National Anaesthesia Day: ANZCA's fasting message focuses on GLP-1s and peptides",
+       "source": "ANZCA",
+       "date": "2026-10-05",
+       "dateNote": "Media release 5 Oct, ahead of National Anaesthesia Day on 16 Oct",
+       "tags": [
+        "Airway",
+        "Periop medicine",
+        "Patient information"
+       ],
+       "finding": "ANZCA's 2026 National Anaesthesia Day campaign warned patients that GLP-1 drugs and unapproved peptides can affect fasting, citing the UK cohort in our last issue. Its patient fact sheet keeps the 6-hour limit for food and allows adults clear fluids (up to 200 mL an hour) until called to theatre. It says people on GLP-1 drugs must tell their anaesthetist and may be asked to have only clear fluids for 24 hours beforehand, and it names retatrutide and other peptides. Patients are told not to stop their medication on their own.",
+       "soWhat": "Your patients may arrive having read this. Make sure your preadmission instructions match it, and ask specifically about peptides and online supplies as well as prescribed GLP-1s.",
+       "verdict": "consider",
+       "url": "https://www.anzca.edu.au/patient-information/about-anaesthesia/eating-and-drinking-before-your-surgery"
+      },
+      {
+       "id": "asa-specialist-access-inquiry",
+       "title": "ASA's inquiry submission forecasts a shortfall of hundreds of anaesthetists by 2032",
+       "source": "Australian Society of Anaesthetists",
+       "date": "2026-10-16",
+       "tags": [
+        "Workforce",
+        "Private practice",
+        "Policy"
+       ],
+       "finding": "In its submission to the House of Representatives inquiry into specialist access and affordability, the ASA projects demand for anaesthesia growing faster than the workforce (35.7% vs 31.8%, 2017–2032), leaving a shortfall of 343 anaesthetists in 2032, or 507 if individual workloads fall. It calls for at least 50 extra trainee posts a year, a third of them regional or rural, and an independent review of MBS anaesthesia benefits, noting the RVG unit value rose 34.7% from 2001 to 2025 against CPI growth of 91.6%.",
+       "soWhat": "Useful numbers for any conversation about fees and gap payments. The separate government consultation on 'excessive' specialist fees closes today (19 Oct).",
+       "verdict": "know",
+       "url": "https://asa.org.au/news-and-media/media-releases/asa-calls-for-coordinated-action-on-specialist-access-and-affordability"
+      }
+     ]
+    }
+   ],
+   "quickHits": [
+    {
+     "text": "ANESTHESIOLOGY 2026 abstract (press release only): noise-cancelling headphones during minimally invasive gynaecological surgery cut 48-hour PONV from 52.1% to 35.4% in an RCT of 192 women.",
+     "source": "American Society of Anesthesiologists",
+     "date": "2026-10-17",
+     "url": "https://www.newswise.com/articles/wearing-headphones-during-surgery-may-reduce-nausea-and-vomiting-afterward/?sc=c6295"
+    },
+    {
+     "text": "ANESTHESIOLOGY 2026 abstract: in a meta-analysis of 6 RCTs (n=1,832), ketamine or esketamine at caesarean modestly lowered early postnatal depression scores (SMD −0.36). The authors say it's too early to claim prevention.",
+     "source": "American Society of Anesthesiologists",
+     "date": "2026-10-17",
+     "url": "https://www.newswise.com/articles/ketamine-during-or-after-c-sections-may-ease-early-postpartum-depression-symptoms-new-study-suggests"
+    },
+    {
+     "text": "ANESTHESIOLOGY 2026 abstract: at one US centre, patients who smoked or vaped cannabis needed more initial propofol for upper endoscopy (about 193 mg vs 151 mg in non-users). Edible users didn't, but the groups were small.",
+     "source": "American Society of Anesthesiologists",
+     "date": "2026-10-18",
+     "url": "https://www.newswise.com/articles/smoking-or-vaping-cannabis-but-not-edibles-linked-to-need-for-more-anesthesia-during-upper-endoscopy-study-suggests/?sc=rsin"
+    },
+    {
+     "text": "Robot-assisted radical hysterectomy had fewer intraoperative complications than open surgery (5.7% vs 10.0%) but similar 30-day complications (about a third in each arm) in a secondary analysis of the 900-patient RACC trial.",
+     "source": "JAMA Surgery",
+     "date": "2026-10-07",
+     "url": "https://doi.org/10.1001/jamasurg.2026.4625"
+    },
+    {
+     "text": "US FDA (5 Oct): BD is removing some Alaris pump infusion sets used with the model 8100 pump module. At rates below 1 mL/h and boluses of 5 mL or less they can under- or over-infuse or delay occlusion alarms, with neonatal, paediatric and critical-care patients most at risk. It's a US action, so check whether your hospital uses the affected sets.",
+     "source": "FDA",
+     "date": "2026-10-05",
+     "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates"
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-10-20",
+     "label": "ANESTHESIOLOGY 2026 ends; ANZCA Perioperative Medicine SIG poster abstracts close"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "Expected end of the Viatris sugammadex 200 mg/2 mL shortage"
+    },
+    {
+     "date": "2026-10-28",
+     "label": "SPANZA/ANZAPS paediatric anaesthesia conference, Surfers Paradise (28–31 Oct)"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "ANZCA Cardiac, Thoracic, Vascular and Perfusion SIG, Surfers Paradise (30–31 Oct); Hypnovel 5 mg/5 mL deleted from market"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "ANZCA 2026.2 Final vivas, Brisbane (5–7 Nov); ASRA Pain Medicine Meeting, Tampa (5–7 Nov)"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "WA ACE Country Conference, Pullman Bunker Bay, South West WA (13–15 Nov)"
+    },
+    {
+     "date": "2026-11-26",
+     "label": "ANZCA Perioperative Medicine SIG meeting, Hobart (26–28 Nov)"
+    },
+    {
+     "date": "2026-11-30",
+     "label": "Noradrenaline Juno 2 mg/2 mL deleted from market"
+    }
+   ],
+   "coverage": "This issue covers two weeks (6–19 Oct), as there was no issue on 12 Oct. Indexing services (Crossref, Europe PMC, PubMed) and most anaesthesia publisher sites (BJA, Wiley, LWW, Sage) couldn't be read, so many in-window anaesthesia papers were seen as titles only and left out rather than guessed at. These include a European study of general anaesthesia rates in 9,989 caesarean deliveries (BJA), pain scores and intrapartum fever with epidurals (BJA), socioeconomic position in PQIP (BJA), a ketamine/esketamine delirium meta-analysis and a consensus statement on anaesthesia for advanced bronchoscopy (both A&A). Anesthesiology, Anaesthesia, AIC, NEJM (apart from ICRAKI), Lancet, BMJ, Annals of Surgery and BJS were largely unchecked. ICRAKI's numbers come from trial summaries rather than the NEJM page. ANESTHESIOLOGY 2026 items are meeting abstracts reported in press releases, not peer-reviewed papers. Several TGA shortage pages (neostigmine, suxamethonium, metaraminol, ropivacaine, lidocaine, heparin) returned errors, and no new ANZCA safety alert was visible in the window, so check the live database."
+  },
   {
    "id": "2026-10-05",
    "number": 2,
