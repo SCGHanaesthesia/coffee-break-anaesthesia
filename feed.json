@@ -1,11 +1,234 @@
 {
  "schema": 1,
- "updated": "2026-10-19T07:06:03+08:00",
+ "updated": "2026-10-26T06:22:11+08:00",
  "app": {
   "latestVersion": 1,
   "apkUrl": "https://github.com/SCGHanaesthesia/coffee-break-anaesthesia/raw/main/app/coffee-break.apk"
  },
  "issues": [
+  {
+   "id": "2026-10-26",
+   "number": 4,
+   "title": "A quiet week: PELICAN flat, clean theatre air and low-rate pump warnings",
+   "published": "2026-10-26T06:22:11+08:00",
+   "window": {
+    "from": "2026-10-20",
+    "to": "2026-10-26"
+   },
+   "readMinutes": 8,
+   "tldr": [
+    "PELICAN (JAMA, 12 European centres, n=1,095): keeping cardiac index at the patient's own preoperative resting value during major abdominal surgery didn't reduce 7-day complications (44.3% vs 46.9%). The exploratory 90-day mortality was higher in the intervention arm (5.7% vs 2.8%).",
+    "ORACLE (Anesthesiology, 110,538 operations in 68 theatres): adding air filtration/sterilisation units to modern theatres made no difference to surgical infections.",
+    "FDA warns that some BD Alaris infusion sets with restrictive components (filters, check valves, microbore) are less accurate than claimed, especially below 1 mL/h and for boluses of 5 mL or less. It was a quiet research week, and the TGA shortage database couldn't be read, so check sugammadex and remifentanil supply with pharmacy."
+   ],
+   "sections": [
+    {
+     "id": "research",
+     "title": "Research",
+     "items": [
+      {
+       "id": "pelican-ci-guided-abdominal-surgery",
+       "title": "PELICAN: targeting each patient's own baseline cardiac index didn't cut complications",
+       "source": "JAMA",
+       "date": "2026-10-19",
+       "dateNote": "Online 19 Oct (US), after Issue 3 went out",
+       "tags": [
+        "Periop medicine",
+        "Haemodynamics"
+       ],
+       "design": "Multicentre RCT · 12 centres in 5 European countries · n=1,095 analysed",
+       "finding": "High-risk adults having elective major abdominal surgery had resting cardiac index measured awake before surgery (bioreactance). In the intervention arm, crystalloid boluses and dobutamine (used in 64% vs <1%) kept intraoperative cardiac index at or above that value. The 7-day composite of AKI, myocardial injury, severe infection, cardiac arrest or death was 44.3% vs 46.9% with routine care (RR 0.94, 95.1% CI 0.83–1.08). 90-day mortality was 5.7% vs 2.8% (RR 2.06, 95% CI 1.13–3.78), an exploratory secondary outcome not adjusted for multiplicity.",
+       "trust": "High for the primary result: a large, well-run multicentre trial with a clear null. The 90-day mortality signal is an exploratory secondary outcome with small absolute numbers, but it can't simply be dismissed either.",
+       "soWhat": "There's no case for adding a preoperative cardiac index target and a dobutamine protocol to major abdominal surgery. Routine MAP-focused care did as well, and the mortality signal is a reason for caution, not proof of harm.",
+       "verdict": "reassure",
+       "url": "https://doi.org/10.1001/jama.2026.18574"
+      },
+      {
+       "id": "oracle-or-air-filtration",
+       "title": "ORACLE: theatre air purifiers didn't reduce surgical infections",
+       "source": "Anesthesiology",
+       "date": "2026-10-20",
+       "dateNote": "Press release 20 Oct. Seen via the press release and news coverage only",
+       "tags": [
+        "Infection",
+        "Safety"
+       ],
+       "design": "Blinded randomised crossover · 68 operating rooms · 110,538 operations",
+       "finding": "Each theatre had two air filtration/sterilisation units fitted, active in half the rooms and identical dummy units in the rest, with the allocation switched every four weeks over several years. There was no difference in infection-related complications, surgical site infection, other complications or death. The event rates and effect estimates weren't available in the sources we could read.",
+       "trust": "Probably high: a very large, blinded design in which each room acts as its own control. It tested add-on units on top of existing theatre ventilation. Cleveland Clinic is the registered sponsor, but the unit maker (Aerus) reportedly funded the research.",
+       "soWhat": "Add-on air purification doesn't seem to add anything in modern theatres. Antibiotic timing, skin prep, normothermia and hand and surface hygiene remain the better targets.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1097/aln.0000000000006424"
+      },
+      {
+       "id": "days-at-home-gi-cancer-surgery",
+       "title": "Days at home after GI cancer surgery: a usable patient-centred outcome",
+       "source": "JAMA Surgery",
+       "date": "2026-10-21",
+       "tags": [
+        "Periop medicine",
+        "Outcomes"
+       ],
+       "design": "Population cohort (Ontario, 2003–21) · 91,270 elective operations",
+       "finding": "Median days alive and at home in the 90 days after surgery (DAH-90) was 82, from 76 after oesophageal surgery to 84 after small-bowel surgery. It tracked outcomes well: 70 vs 83 days with and without major morbidity, and 62 vs 83 days in those who did and didn't die within a year. In exploratory analysis, frailty was associated with 2.6 fewer days (95% CI 2.3–2.9) and a laparoscopic approach with 3.0 more (95% CI 2.9–3.1).",
+       "trust": "Good as a validation of the measure: large, population-based data. The frailty and laparoscopy associations are observational and shouldn't be read as causal.",
+       "soWhat": "Days at home is becoming the standard perioperative trial outcome. These figures give useful benchmarks for what's typical when consenting older and frail patients for cancer surgery.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1001/jamasurg.2026.4890"
+      },
+      {
+       "id": "on-scene-ecpr-paris",
+       "title": "ECPR on scene versus in hospital: better neurological survival in a Paris registry",
+       "source": "Critical Care",
+       "date": "2026-10-25",
+       "tags": [
+        "Critical care",
+        "Resuscitation"
+       ],
+       "design": "Prospective registry · Greater Paris 2011–24 · 1,031 ECPR patients (256 on scene, 775 in hospital)",
+       "finding": "Out of 52,505 out-of-hospital arrests, ECPR started on scene began sooner after CPR started (median 70 vs 93 min). Survival to discharge with good neurological outcome (CPC 1–2) was 13% vs 6% (adjusted OR 2.3, 95% CI 1.4–3.9; propensity-matched OR 2.1, 95% CI 1.1–4.1).",
+       "trust": "Moderate. It's observational from one unusual system with a prehospital ECPR team, so selection bias is likely and the findings may not travel.",
+       "soWhat": "Time to flow matters for ECPR. It's of interest for WA's ECPR and retrieval planning, but it's no argument for prehospital cannulation where the infrastructure doesn't exist.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1186/s13054-026-06421-y"
+      }
+     ]
+    },
+    {
+     "id": "safety",
+     "title": "Safety & supply",
+     "items": [
+      {
+       "id": "bd-alaris-low-rate-accuracy",
+       "title": "BD Alaris infusion sets: less accurate at low rates than claimed",
+       "source": "US FDA",
+       "date": "2026-10-20",
+       "dateNote": "FDA early alerts on Cardinal Health Presource kits, 20 Oct; BD's own customer letter was dated 19 Aug",
+       "tags": [
+        "Safety",
+        "Equipment"
+       ],
+       "finding": "BD found that some Alaris pump infusion sets with restrictive components, such as closed male luers, filters, check valves, Y-sites or microbore tubing, perform worse than previously disclosed. Deviations are most common at rates below 1 mL/h and boluses of 5 mL or less. They can cause under- or over-infusion, delayed occlusion alarms and inaccurate boluses that users may not notice. FDA advises using a syringe pump when Alaris performance isn't clinically appropriate. The bag shouldn't hang below the pump or more than 21 inches (about 53 cm) above it, and Selectable pressure mode above 50 mmHg shouldn't be used at rates under 10 mL/h. No serious injuries or deaths had been reported as of 19 Aug.",
+       "soWhat": "This is a US alert, and it isn't stated whether the affected sets reached Australia. Even so, low-rate vasopressor and inotrope infusions in neonates, children and ICU patients are where it bites, so favour syringe drivers for these and ask biomedical engineering whether the BD disclosures apply locally.",
+       "verdict": "consider",
+       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-cardinal-health-updates-use-instructions-presource-packs-containing-bd-alaris-pump"
+      },
+      {
+       "id": "shortages-check-sugammadex-remifentanil",
+       "title": "Shortages: sugammadex listing changed on 23 Oct, and a remifentanil shortage is listed",
+       "source": "TGA shortage register (via Voxsanity mirror)",
+       "date": "2026-10-25",
+       "dateNote": "Register figures as at 25 Oct; the TGA database itself couldn't be opened this week",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "A third-party mirror of the TGA register shows sugammadex still in shortage (2 of 8 products affected), last updated by TGA on 23 Oct. Last issue reported that Viatris 200 mg/2 mL was due back that day. Remifentanil now shows a current shortage (1 of 2 products), updated 19 Oct. Tranexamic acid (1 of 7), dexamethasone (1 of 3), magnesium sulfate and propofol (1 of 7) remain listed. The mirror doesn't show brands, strengths or dates.",
+       "soWhat": "We couldn't confirm which brands are affected. Check the live TGA database or theatre pharmacy, especially for sugammadex and remifentanil.",
+       "verdict": "act",
+       "url": "https://voxsanity.com.au/shortages/"
+      }
+     ]
+    },
+    {
+     "id": "news",
+     "title": "Guidelines & news",
+     "items": [
+      {
+       "id": "anzca-prof-docs-feedback",
+       "title": "ANZCA wants feedback on five professional documents, the first closing 9 Nov",
+       "source": "ANZCA",
+       "date": "2026-10-20",
+       "dateNote": "Page last modified 20 Oct",
+       "tags": [
+        "Guidelines"
+       ],
+       "finding": "Pilot feedback is open on PS64 (environmental sustainability, closes 9 Nov), PS57 (duties of specialist anaesthetists, 8 Dec), PG21 (central venous lines, 21 Dec), PG03 (major regional analgesia, 27 Dec) and PG31 (checking anaesthesia delivery systems, 29 Dec). PS53 (handover) and FPM's PS16(PM) are also open, with no closing date shown.",
+       "soWhat": "PG03, PG21 and PG31 cover things you do every list. If you teach or run a block or line service, this is the moment to have a say.",
+       "verdict": "know",
+       "url": "https://www.anzca.edu.au/safety-and-advocacy/standards-of-practice/professional-documents/prof-docs-get-involved"
+      },
+      {
+       "id": "asa-specialist-inquiry-extended",
+       "title": "Specialist access inquiry: submissions extended to 27 Nov",
+       "source": "Australian Society of Anaesthetists",
+       "date": "2026-10-21",
+       "tags": [
+        "Workforce"
+       ],
+       "finding": "Submissions to the House of Representatives inquiry into access to and affordability of medical specialists now close on Friday 27 November. The ASA is strongly encouraging members to make individual submissions, for example on access barriers, rural workforce, delayed care, rebates and patient costs. Its own submission (announced 16 Oct) projected a shortfall of 343 anaesthetists by 2032 in its base scenario.",
+       "soWhat": "Five more weeks to put a WA perspective on record. Brief, concrete examples from your own practice carry weight.",
+       "verdict": "know",
+       "url": "https://asa.org.au/news-and-media/medical-specialist-inquiry-submissions-extended-to-27-november"
+      }
+     ]
+    }
+   ],
+   "quickHits": [
+    {
+     "text": "BJA RCT (n=117, laparoscopic colorectal surgery, ARISCAT ≥26): EIT-guided PEEP titration vs fixed PEEP 5 lowered driving pressure (median 16 vs 19 cmH2O) and reportedly cut pulmonary complications. The full numbers weren't seen.",
+     "source": "BJA (via Omnicuris summary)",
+     "date": "2026-10-20",
+     "url": "https://www.omnicuris.com/medshots/daily_updates/eit-guided-peep-optimisation-laparoscopic-colorectal-surgery_21-Oct-26_13-18"
+    },
+    {
+     "text": "Intensive Care Medicine narrative review on drug dosing in obese ICU patients: the evidence is sparse and the choice of weight scalar matters most.",
+     "source": "Intensive Care Medicine",
+     "date": "2026-10-22",
+     "url": "https://doi.org/10.1007/s00134-026-08628-7"
+    },
+    {
+     "text": "'What's new in trauma critical care?' (ICM): blood products as first-line fluids, two prehospital blood trials showed no mortality benefit, and early thromboprophylaxis once stable.",
+     "source": "Intensive Care Medicine",
+     "date": "2026-10-22",
+     "url": "https://doi.org/10.1007/s00134-026-08618-9"
+    },
+    {
+     "text": "ANZCA reminder: 70 days left to complete 2026 CPD, which takes you to 31 Dec.",
+     "source": "ANZCA",
+     "date": "2026-10-22",
+     "url": "https://www.anzca.edu.au/"
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-10-28",
+     "label": "SPANZA/ANZAPS paediatric anaesthesia conference, Surfers Paradise (28–31 Oct); ANZCA 2026.2 Primary exam results"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "ANZCA Cardiac, Thoracic, Vascular and Perfusion SIG, Surfers Paradise (30–31 Oct); Hypnovel 5 mg/5 mL due for market deletion (not re-checked this week)"
+    },
+    {
+     "date": "2026-11-05",
+     "label": "ANZCA 2026.2 Final vivas, Brisbane (5–7 Nov); ASRA Pain Medicine Meeting, Tampa (5–7 Nov)"
+    },
+    {
+     "date": "2026-11-09",
+     "label": "ANZCA PS64 (environmental sustainability) feedback closes"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "ANZCA 2026.2 Final exam results"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "WA ACE Country Conference, Pullman Bunker Bay, South West WA (13–15 Nov)"
+    },
+    {
+     "date": "2026-11-26",
+     "label": "ANZCA Perioperative Medicine SIG meeting, Hobart (26–28 Nov)"
+    },
+    {
+     "date": "2026-11-27",
+     "label": "Submissions close: House inquiry into access to and affordability of medical specialists"
+    },
+    {
+     "date": "2026-11-30",
+     "label": "Noradrenaline Juno 2 mg/2 mL due for market deletion (not re-checked this week)"
+    }
+   ],
+   "coverage": "A quiet and poorly accessible week. PELICAN and ORACLE went online on 19–20 Oct, just after Issue 3 went out, so they're included here. Most publisher sites (BJA, Wiley, LWW, ScienceDirect, NEJM, Lancet) and PubMed couldn't be read, so in-window anaesthesia papers were mostly seen as titles only and left out. These include the FRAGILE frailty cohort and a delirium and 1-year outcomes study (both EJA), childhood anaesthesia exposure and cognition (Anesthesiology), and serratus catheters and pneumothorax after cardiac surgery (CJA). ORACLE's results come from the press release and news coverage, with no effect sizes seen. The EIT-PEEP quick hit comes from a secondary summary. The TGA shortage database and safety alert pages couldn't be opened, so shortage information comes from a third-party mirror without brand details, and last issue's deletion dates weren't re-checked. Annals of Surgery, BJS, Critical Care Medicine, JAMA Network Open and RAPM were largely unchecked."
+  },
   {
    "id": "2026-10-19",
    "number": 3,
