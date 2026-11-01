@@ -1,11 +1,207 @@
 {
  "schema": 1,
- "updated": "2026-10-26T06:22:11+08:00",
+ "updated": "2026-11-02T06:24:11+08:00",
  "app": {
   "latestVersion": 1,
   "apkUrl": "https://github.com/SCGHanaesthesia/coffee-break-anaesthesia/raw/main/app/coffee-break.apk"
  },
  "issues": [
+  {
+   "id": "2026-11-02",
+   "number": 5,
+   "title": "A thin week: Marcain ampoules short, exercise before oesophagogastric surgery and chlorhexidine mouthcare",
+   "published": "2026-11-02T06:24:11+08:00",
+   "window": {
+    "from": "2026-10-27",
+    "to": "2026-11-02"
+   },
+   "readMinutes": 6,
+   "tldr": [
+    "Marcain 0.5% 50 mg/10 mL ampoules are unavailable until 10 Nov, and Dexamethasone Juno 4 mg/1 mL is limited until 20 Nov. Two more sugammadex brands (Juno and Lupin) are being discontinued; other brands are available.",
+    "Supervised exercise during neoadjuvant treatment for oesophagogastric cancer (JAMA Netw Open, n=202) didn't get more patients to surgery or reduce complications, and 3-year survival was unexpectedly worse in the exercise arm.",
+    "A thin and poorly accessible research week. A BJA remimazolam vs propofol delirium RCT and a multicentre esketamine chronic-pain RCT came out, but we couldn't read the results yet; they're held over to next week."
+   ],
+   "sections": [
+    {
+     "id": "research",
+     "title": "Research",
+     "items": [
+      {
+       "id": "exercise-neoadjuvant-oesophagogastric",
+       "title": "Exercise during neoadjuvant treatment for oesophagogastric cancer didn't improve surgical outcomes",
+       "source": "JAMA Network Open",
+       "date": "2026-10-28",
+       "tags": [
+        "Periop medicine",
+        "Prehabilitation"
+       ],
+       "design": "Single-blinded RCT · Rigshospitalet, Copenhagen · n=202 analysed (207 randomised) · stopped early",
+       "finding": "Patients having neoadjuvant treatment (mostly FLOT chemotherapy) for oesophagogastric cancer were randomised to supervised high-intensity interval cycling plus resistance training twice a week, or usual care. Failure to reach curative-intent surgery was 9.9% vs 7.9% (OR 1.28, 95% CI 0.48–3.38), and postoperative complications didn't differ (OR 1.16, 0.61–2.20). Three-year overall survival was lower with exercise (51.0% vs 65.0%; HR 1.58, 1.02–2.45).",
+       "trust": "Low to moderate. It stopped at two-thirds of its target sample when funding ran out, so it's underpowered. Survival was a secondary outcome, and at a post hoc 5-year follow-up the difference was no longer statistically significant (HR 1.45, 0.96–2.19). Standard chemotherapy changed from MAGIC to FLOT after the pilot phase.",
+       "soWhat": "No support for exercise during neoadjuvant treatment as a way to get more patients to surgery or reduce complications. The survival signal may well be chance, since it weakened by 5 years, but it's a reason not to oversell prehab in this group.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1001/jamanetworkopen.2026.40136"
+      },
+      {
+       "id": "chlorhexidine-oral-care-vap",
+       "title": "Adding chlorhexidine to an oral-care bundle didn't reduce VAP",
+       "source": "Critical Care",
+       "date": "2026-10-29",
+       "tags": [
+        "Critical care",
+        "Infection"
+       ],
+       "design": "Cluster-randomised crossover · 6 medical ICUs at one Indian centre · 1,035 ventilated adults",
+       "finding": "ICUs alternated between a standardised oral-care bundle alone and the bundle plus 0.12% chlorhexidine for about 9 months each. VAP (CPIS above 6) was 18.75 vs 16.90 per 1,000 ventilator-days with and without chlorhexidine (adjusted IRR 1.08, 95% CI 0.84–1.38). 28-day mortality was 26.4% vs 28.7% (adjusted OR 0.87, 0.65–1.15), and ICU stay was about 0.9 days longer with chlorhexidine.",
+       "trust": "Low to moderate. Only six clusters at one centre, VAP was defined by CPIS, there was no prespecified sample size and staff weren't blinded. Numbers were taken from a detailed secondary summary rather than the publisher's page.",
+       "soWhat": "Fits with the move away from routine chlorhexidine mouthcare in ventilated patients: adding it to a good oral-care bundle didn't reduce VAP or deaths.",
+       "verdict": "reassure",
+       "url": "https://doi.org/10.1186/s13054-026-06217-0"
+      }
+     ]
+    },
+    {
+     "id": "safety",
+     "title": "Safety & supply",
+     "items": [
+      {
+       "id": "marcain-05-10ml-shortage",
+       "title": "Marcain 0.5% 10 mL ampoules unavailable until 10 Nov",
+       "source": "TGA shortage database",
+       "date": "2026-10-23",
+       "dateNote": "Shortage listed from 23 Oct, after Issue 4's search; expected to end 10 Nov",
+       "tags": [
+        "Supply",
+        "Regional"
+       ],
+       "finding": "Marcain 0.5% (bupivacaine 50 mg/10 mL) ampoules are listed as unavailable from 23 Oct to 10 Nov 2026 because of a manufacturing problem. The TGA says another brand and other pack sizes are available.",
+       "soWhat": "Expect a different bupivacaine brand or pack in block rooms and on the trolley for the next week or so. Check labels and concentrations, especially if plain and adrenaline-containing products are stocked side by side.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/Prod/msi/Search/Details/bupivacaine%20hydrochloride"
+      },
+      {
+       "id": "shortage-roundup-nov",
+       "title": "Shortage round-up: dexamethasone, sugammadex and propofol",
+       "source": "TGA shortage database",
+       "date": "2026-11-01",
+       "dateNote": "Listings as read on 1–2 Nov",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Dexamethasone Juno 4 mg/1 mL is in limited supply from 15 Oct to 20 Nov because of a jump in demand, with other brands available. For sugammadex, Juno 200 mg/2 mL is due to leave the market on 31 Dec 2026 and Lupin's (Sugammadex LAPL) 200 mg/2 mL on 31 Jan 2027. Accord stays unavailable until 31 Mar 2027, and Viatris was still shown as limited although its expected end date (23 Oct) has passed. B. Braun Propofol-Lipuro 1% 100 mL remains unavailable until 15 Jan 2027. The only remifentanil listing we could open showed no current shortage, but it looked out of date.",
+       "soWhat": "Sugammadex brand switches will keep happening into the new year; other brands are available for each of these. Last week's remifentanil listing couldn't be confirmed either way, so check with theatre pharmacy if you rely on it.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/shortages/Search/Details/sugammadex%20sodium"
+      },
+      {
+       "id": "ge-aisys-gas-mixer-recall",
+       "title": "GE anaesthesia machines: Aisys gas mixer and Carestation shutdown corrections",
+       "source": "Medsafe (NZ) recall database",
+       "date": "2026-09-23",
+       "dateNote": "NZ actions began 7 Sep (Carestation) and 23 Sep (Aisys); part of a worldwide GE action not previously covered here. Australian status not checked",
+       "tags": [
+        "Safety",
+        "Equipment"
+       ],
+       "finding": "GE is exchanging gas mixer assemblies on Aisys CS2 (including Et Control) and S/5 Aisys machines. A faulty mixer can make the machine switch automatically to Alternate O2 control, delivering 100% oxygen with anaesthetic agent delivery interrupted until the clinician intervenes; ventilation continues and an alarm shows. Separately, a software update for Carestation 850/850c addresses unexpected shutdown, stopping gas flow and ventilation, if mains power is lost after the On/Standby switch wasn't pressed long enough at start-up.",
+       "soWhat": "If you use an Aisys, know what an Alternate O2 switch looks like and have IV agents ready to cover the loss of volatile. On a Carestation, keep a self-inflating bag to hand as always. Ask biomedical engineering whether the Australian equivalents of these corrections have reached your machines.",
+       "verdict": "consider",
+       "url": "https://www.medsafe.govt.nz/hot/Recalls/RecallDetail.asp?ID=37614"
+      }
+     ]
+    },
+    {
+     "id": "news",
+     "title": "Guidelines & news",
+     "items": [
+      {
+       "id": "anzca-exams-nov",
+       "title": "ANZCA exams: Primary results out, Final vivas this week",
+       "source": "ANZCA",
+       "date": "2026-10-28",
+       "dateNote": "Dates from ANZCA's exams page",
+       "tags": [
+        "Training",
+        "Exams"
+       ],
+       "finding": "The 2026.2 Primary results were due for release on 28 Oct. The 2026.2 Final vivas run in Brisbane on 5–7 Nov, with results on 12 Nov. For 2027.1, special consideration closes on 9 Dec (Primary) and 17 Dec (Final), and the Final written exam is on 16 Mar 2027.",
+       "soWhat": "If you supervise Final candidates, this week is the last chance for viva practice; and it's worth checking in on any Primary candidates who didn't get through.",
+       "verdict": "know",
+       "url": "https://www.anzca.edu.au/education-training/anaesthesia-training-program/anaesthesia-exams"
+      }
+     ]
+    }
+   ],
+   "quickHits": [
+    {
+     "text": "Indian sepsis registry follow-up (n=608 survivors, up to 39 months): 41.9% died during follow-up and a third were readmitted. Each extra Charlson comorbidity point raised the odds of death (OR 1.40).",
+     "source": "Critical Care",
+     "date": "2026-10-27",
+     "url": "https://doi.org/10.1186/s13054-026-06427-6"
+    },
+    {
+     "text": "Single-centre RCT (80 children aged 1–6, chalazion surgery): a 6% rather than 8% sevoflurane vaporiser setting for mask induction lowered emergence delirium scores (median PAED 9 vs 14). The trial was registered retrospectively.",
+     "source": "BMC Anesthesiology",
+     "date": "2026-10-30",
+     "url": "https://doi.org/10.1186/s12871-026-04382-x"
+    },
+    {
+     "text": "FDA recall: Instrumentation Laboratory is removing the HemosIL AcuStar HIT-IgG(PF4-H) assay. Worth asking your lab whether HIT testing in cardiac and vascular patients uses it.",
+     "source": "US FDA",
+     "date": "2026-10-30",
+     "url": "https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts"
+    },
+    {
+     "text": "Reminder: submissions to the House inquiry into access to and affordability of medical specialists close on Friday 27 Nov.",
+     "source": "Australian Society of Anaesthetists",
+     "date": "2026-10-21",
+     "url": "https://asa.org.au/news-and-media/medical-specialist-inquiry-submissions-extended-to-27-november"
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-11-05",
+     "label": "ANZCA 2026.2 Final vivas, Brisbane (5–7 Nov); ASRA Pain Medicine Meeting, Tampa (5–7 Nov)"
+    },
+    {
+     "date": "2026-11-09",
+     "label": "ANZCA PS64 (environmental sustainability) feedback closes (as listed on 20 Oct; not re-checked)"
+    },
+    {
+     "date": "2026-11-10",
+     "label": "Marcain 0.5% 50 mg/10 mL ampoules expected back"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "ANZCA 2026.2 Final exam results"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "WA ACE Country Conference, Pullman Bunker Bay Resort (13–15 Nov)"
+    },
+    {
+     "date": "2026-11-20",
+     "label": "ASA WA Part 3 Course; Dexamethasone Juno 4 mg/1 mL shortage expected to end"
+    },
+    {
+     "date": "2026-11-26",
+     "label": "ANZCA Perioperative Medicine SIG meeting, Hobart (26–28 Nov)"
+    },
+    {
+     "date": "2026-11-27",
+     "label": "Submissions close: House inquiry into access to and affordability of medical specialists"
+    },
+    {
+     "date": "2026-12-08",
+     "label": "ANZCA PS57 (duties of specialist anaesthetists) feedback closes (as listed on 20 Oct; not re-checked)"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "ANZCA 2027.1 Primary special consideration applications close"
+    }
+   ],
+   "coverage": "A thin week, and access was worse than usual: Crossref, Europe PMC, PubMed and most publisher pages (BJA, Wiley, LWW, ScienceDirect, NEJM, Lancet, Springer article pages) couldn't be read, so in-window anaesthesia papers were seen as titles only and left out. These include, in BJA, a remimazolam vs propofol delirium noninferiority RCT in neurovascular surgery (29 Oct), a multicentre double-blind RCT of perioperative esketamine and chronic pain after VATS lung resection (28 Oct), point-of-care ultrasound congestion after major GI surgery (29 Oct), a shared decision-making Delphi for high-risk surgery and a remimazolam hepatic dysfunction cohort (30 Oct); in Anesthesia & Analgesia, perioperative calls for help (29 Oct); and in Critical Care, an albumin and AKI meta-analysis (27 Oct). We'll try again next week. The chlorhexidine VAP and sepsis-registry numbers come from a secondary summary, not the publisher's abstract. NEJM, Lancet, Annals of Surgery, BJS, Critical Care Medicine, Anaesthesia, JCA and Anaesthesia and Intensive Care were largely unchecked, as were TGA safety alerts and the ANZCA news page. The GE Aisys recall is from New Zealand's register; we couldn't check the TGA's recall database. Hypnovel 5 mg/5 mL was due to leave the market on 30 Oct, but only an older listing could be read. The tranexamic acid and noradrenaline listings gave conflicting or unreadable results this week, so last issue's Tranexamic Acid Juno and Noradrenaline Juno (30 Nov deletion) details weren't re-confirmed and are left out. The sevoflurane quick-hit date is from a news summary; the paper's own online date wasn't seen."
+  },
   {
    "id": "2026-10-26",
    "number": 4,
