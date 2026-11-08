@@ -1,11 +1,286 @@
 {
  "schema": 1,
- "updated": "2026-11-02T06:24:11+08:00",
+ "updated": "2026-11-09T06:05:08+08:00",
  "app": {
   "latestVersion": 1,
   "apkUrl": "https://github.com/SCGHanaesthesia/coffee-break-anaesthesia/raw/main/app/coffee-break.apk"
  },
  "issues": [
+  {
+   "id": "2026-11-09",
+   "number": 6,
+   "title": "Remimazolam and delirium, ECMO from the helicopter, and a new sugammadex squeeze",
+   "published": "2026-11-09T06:05:08+08:00",
+   "window": {
+    "from": "2026-11-03",
+    "to": "2026-11-09"
+   },
+   "readMinutes": 9,
+   "tldr": [
+    "Remimazolam TIVA was noninferior to propofol TIVA for delirium after neurovascular surgery (BJA, n=686: 12.8% vs 10.8%), with less hypotension and more patients extubated in theatre.",
+    "OnScene (NEJM, presented at AHA): starting ECPR on scene from Dutch helicopter teams roughly doubled survival to discharge in 18–50-year-olds with refractory cardiac arrest, though the trial wasn't randomised.",
+    "Supply: Sugammadex ARX is now limited until 15 Jan, adding to Accord being unavailable and two brands leaving the market. Medsurge magnesium sulfate 50% is limited until 13 Dec and Noradrenaline Juno 2 mg/2 mL leaves the market on 30 Nov."
+   ],
+   "sections": [
+    {
+     "id": "research",
+     "title": "Research",
+     "items": [
+      {
+       "id": "remimazolam-propofol-delirium-neurovascular",
+       "title": "Remimazolam TIVA noninferior to propofol for delirium after neurovascular surgery",
+       "source": "BJA",
+       "date": "2026-10-29",
+       "dateNote": "Late item: online 29 Oct, held over from Issue 5 because the results couldn't be read then",
+       "tags": [
+        "Pharmacology",
+        "Neuro"
+       ],
+       "design": "Single-centre double-blind noninferiority RCT · n=686 (modified ITT) · margin 10 percentage points",
+       "finding": "Adults having elective aneurysm clipping, AVM resection, microvascular decompression or STA–MCA bypass got remimazolam-based TIVA (reversed with flumazenil at emergence) or propofol-based TIVA, both with remifentanil. Delirium within 5 days occurred in 12.8% (44/344) with remimazolam and 10.8% (37/342) with propofol (risk difference 1.97 percentage points, 95% CI −2.85 to 6.80), meeting noninferiority. Remimazolam patients had less hypotension below MAP 65 mm Hg and were more often extubated in theatre (85.2% vs 67.3%).",
+       "trust": "Moderate. A well-sized blinded trial, but at one centre, and the 10-point margin is generous: delirium was rarer than the authors expected, and the upper CI bound still allows a few points of extra delirium. Flumazenil reversal is part of the remimazolam package and probably explains some of the faster extubation.",
+       "soWhat": "Reasonable reassurance that remimazolam doesn't cause a large excess of delirium, and its haemodynamic profile is attractive in fragile patients. It isn't evidence that it's better for the brain, and a small harm hasn't been excluded.",
+       "verdict": "reassure",
+       "url": "https://doi.org/10.1016/j.bja.2026.09.021"
+      },
+      {
+       "id": "onscene-prehospital-ecpr",
+       "title": "OnScene: prehospital ECPR doubled survival in younger refractory cardiac arrest",
+       "source": "NEJM",
+       "date": "2026-11-07",
+       "dateNote": "Published with its presentation at AHA Scientific Sessions 2026",
+       "tags": [
+        "Resuscitation",
+        "Critical care"
+       ],
+       "design": "Non-randomised stepped-wedge trial · 4 Dutch helicopter EMS stations · n=231 (144 intervention, 87 control)",
+       "finding": "Adults aged 18–50 still in witnessed cardiac arrest (shockable rhythm, or PEA with suspected PE) were eligible once helicopter teams began cannulating for ECMO on scene. Survival to hospital discharge was 40% (57/144) vs 20% (17/87) with conventional care (OR 2.72, 95% CI 1.59–4.66), and good neurological outcome at 6 months was 36% vs 13%. Cannulation was attempted in 68% of the intervention group.",
+       "trust": "Low to moderate. It wasn't randomised and only four stations switched over time, so secular trends and baseline differences (more VF in the intervention arm, 89% vs 75%) could explain some of the gap. The numbers here are from a detailed secondary summary; we couldn't open NEJM's own page.",
+       "soWhat": "The strongest signal yet for taking ECMO to the patient, though in a very selected young group within a mature helicopter system. For Australian services (Melbourne's CHEER3 has piloted it) it strengthens the case for trials, not for wholesale adoption.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1056/NEJMoa2602919"
+      },
+      {
+       "id": "ischemia-extend-11-year",
+       "title": "ISCHEMIA at 11 years: still no survival benefit from routine revascularisation",
+       "source": "JAMA",
+       "date": "2026-11-07",
+       "dateNote": "Published with its presentation at AHA Scientific Sessions 2026",
+       "tags": [
+        "Cardiac",
+        "Periop medicine"
+       ],
+       "design": "Extended follow-up of an RCT · n=5,179 · 320 sites in 37 countries",
+       "finding": "Patients with stable coronary disease and moderate or severe ischaemia were randomised to an invasive strategy or medical therapy first. At 11 years all-cause mortality was 25.8% vs 26.9% (adjusted HR 0.97, 95% CI 0.86–1.09). Cardiovascular deaths leaned towards invasive care (HR 0.88, 0.75–1.02) and non-cardiovascular deaths the other way (HR 1.18, 0.96–1.45).",
+       "trust": "High for its question, but it excluded LVEF below 35%, left main disease and recent ACS, and it isn't a perioperative trial.",
+       "soWhat": "Indirect support for not sending patients with stable ischaemia for revascularisation before non-cardiac surgery purely to improve long-term survival. Optimise medical therapy and keep pre-op cardiology referral for symptoms or high-risk anatomy.",
+       "verdict": "reassure",
+       "url": "https://doi.org/10.1001/jama.2026.20375"
+      },
+      {
+       "id": "egs-verification-program",
+       "title": "Emergency general surgery verification linked to fewer deaths and less AKI",
+       "source": "JAMA Surgery",
+       "date": "2026-11-04",
+       "tags": [
+        "Emergency surgery",
+        "Quality"
+       ],
+       "design": "Difference-in-differences cohort · ACS NSQIP · 55 US hospitals (5 verified) · n=21,858",
+       "finding": "Hospitals that went through the American College of Surgeons' emergency general surgery verification were compared with 50 that didn't. Verification was associated with 30-day mortality falling by 1.63 percentage points (95% CI 0.71–2.55), AKI by 1.23 points and length of stay by 1.3 days. More patients were admitted under surgeons, and time to operation fell by about 11 hours.",
+       "trust": "Low to moderate. Observational, with only five early-adopter hospitals, which probably differ from the rest, and a short follow-up period.",
+       "soWhat": "Adds to the case (alongside NELA in the UK) that organised emergency laparotomy pathways save lives. The parts anaesthetists own are timely theatre access and consultant-level care for high-risk cases.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1001/jamasurg.2026.5254"
+      },
+      {
+       "id": "remifentanil-ec50-emergence-cough",
+       "title": "How much remifentanil stops emergence coughing? About 2 ng/mL",
+       "source": "Canadian Journal of Anesthesia",
+       "date": "2026-11-03",
+       "tags": [
+        "Pharmacology",
+        "Airway"
+       ],
+       "design": "Systematic review and meta-analysis · 22 prospective dose-finding studies · 857 adults",
+       "finding": "Pooling dose-finding studies, the effect-site remifentanil concentration that suppressed coughing at emergence in half of patients (EC50) was 2.0 ng/mL (95% CI 1.8–2.3), and the modelled EC95 was 2.7 ng/mL (2.5–3.0). Requirements were higher in men and after VATS (mean EC50 2.6 ng/mL in each).",
+       "trust": "Low. Heterogeneity was very high and GRADE certainty very low, and the targets depend on the PK model and pump each study used.",
+       "soWhat": "A handy starting point if you run remifentanil to extubation for a smooth wake-up: around 2–3 ng/mL effect-site, a bit higher in men and after thoracic surgery. Watch ventilation as the patient wakes.",
+       "verdict": "consider",
+       "url": "https://doi.org/10.1007/s12630-026-03215-2"
+      },
+      {
+       "id": "lateral-video-dlt-vats",
+       "title": "Placing the double-lumen tube with the patient already on their side",
+       "source": "Canadian Journal of Anesthesia",
+       "date": "2026-11-05",
+       "tags": [
+        "Airway",
+        "Thoracic"
+       ],
+       "design": "Single-centre RCT · Xi'an, China · n=62 · outcome assessors blinded",
+       "finding": "For unilateral VATS, patients were intubated with a video double-lumen tube either supine (then turned) or in a modified lateral position. Lateral intubation shortened room-to-incision time by 13 minutes (95% CI 11.6–14.4), and tube malposition fell from 48% to 3% (RR 0.067). Intubation took about the same time (103 vs 97 s), and sore throat was less common (29% vs 58%).",
+       "trust": "Low to moderate. A small single-centre trial with unblinded operators, and its primary outcome is a workflow measure; the malposition rate in the supine arm is high.",
+       "soWhat": "Interesting if you use video DLTs: turning the patient first avoids tube displacement during positioning. Most thoracic lists won't change on one 62-patient trial.",
+       "verdict": "know",
+       "url": "https://doi.org/10.1007/s12630-026-03223-2"
+      }
+     ]
+    },
+    {
+     "id": "safety",
+     "title": "Safety & supply",
+     "items": [
+      {
+       "id": "sugammadex-arx-limited",
+       "title": "Sugammadex ARX limited until mid-January",
+       "source": "TGA shortage database",
+       "date": "2026-10-26",
+       "dateNote": "Listed from 26 Oct; not picked up in Issue 5",
+       "tags": [
+        "Supply",
+        "Pharmacology"
+       ],
+       "finding": "Sugammadex ARX 200 mg/2 mL (Arrotex) is in limited supply from 26 Oct 2026 to 15 Jan 2027 because of increased demand, with other brands available. Sugammadex Accord remains unavailable until 31 Mar 2027, and the Juno and Lupin 200 mg/2 mL products are due to leave the market on 31 Dec 2026 and 31 Jan 2027. Viatris is now listed as resolved.",
+       "soWhat": "Four brands are affected one way or another, so expect more brand switches on the trolley over summer. Check with theatre pharmacy which brand you're stocked with.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/Prod/msi/Search/Details/sugammadex%20sodium"
+      },
+      {
+       "id": "shortage-roundup-nov-9",
+       "title": "Shortage round-up: magnesium, noradrenaline, lidocaine jelly, dexamethasone and propofol",
+       "source": "TGA shortage database",
+       "date": "2026-11-08",
+       "dateNote": "Listings as read on 8–9 Nov",
+       "tags": [
+        "Supply"
+       ],
+       "finding": "Medsurge magnesium sulfate 50% 2.5 g/5 mL ampoules are limited from 13 Oct to 13 Dec because of a manufacturing problem; no alternative is listed and it's on the TGA's critical shortages list. Noradrenaline Juno 2 mg/2 mL is being run down ahead of deletion from the market on 30 Nov, with other brands available. Xylocaine 2% jelly tubes are unavailable from 23 Oct to 11 Dec, with other pack sizes available. Dexamethasone Juno 4 mg/1 mL stays limited until 20 Nov, and B. Braun Propofol-Lipuro 1% 100 mL is unavailable until 15 Jan 2027. Marcain 0.5% 10 mL ampoules are still listed as due back on 10 Nov. Hypnovel 5 mg/5 mL has passed its 30 Oct deletion date; other midazolam brands are available.",
+       "soWhat": "Magnesium is the one to watch, for obstetrics, cardiac and ICU use; check how much your pharmacy holds and which brand. Expect a different noradrenaline ampoule from December.",
+       "verdict": "act",
+       "url": "https://apps.tga.gov.au/Prod/msi/Search?shortagetype=All&exportType=Excel"
+      },
+      {
+       "id": "butterflybvm-recall",
+       "title": "FDA early alert: holes in ButterflyBVM resuscitator bellows",
+       "source": "US FDA",
+       "date": "2026-11-03",
+       "dateNote": "US action; we didn't find any Australian distribution",
+       "tags": [
+        "Safety",
+        "Equipment"
+       ],
+       "finding": "Compact Medical's single-use ButterflyBVM bag-valve-mask resuscitators (READY, standard and PLUS models) can develop holes in the bellows, letting part of each breath escape so the patient is under-ventilated. Lots 000109–000117 are being removed, and earlier lots (000081–000108) need a pre-use test before each patient, with a backup device available. No serious injuries or deaths had been reported as of 2 Nov.",
+       "soWhat": "Probably not on Australian trolleys, but worth a check if your department buys disposable bag-valve-masks from US suppliers. Either way, it's a reminder to test any self-inflating bag before you need it.",
+       "verdict": "know",
+       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask"
+      }
+     ]
+    },
+    {
+     "id": "news",
+     "title": "Guidelines & news",
+     "items": [
+      {
+       "id": "anzca-prof-docs-pilots",
+       "title": "ANZCA document pilots: central lines, major regional and machine checks open for feedback",
+       "source": "ANZCA",
+       "date": "2026-10-28",
+       "dateNote": "Closing dates as shown on ANZCA's 'get involved' page, last updated 28 Oct",
+       "tags": [
+        "Guidelines",
+        "Regional"
+       ],
+       "finding": "Revised versions of PG21 (central venous lines), PG03 (major regional analgesia) and PG31 (checking anaesthesia delivery systems), each with its background paper, are in pilot, closing on 21, 27 and 29 Dec. PS57 (duties of specialist anaesthetists) closes on 8 Dec, and PS64 (environmental sustainability) closes today, 9 Nov.",
+       "soWhat": "PG03 and PG31 touch everyday practice in block rooms and at the start of every list. If you have views, this is the time to send them, and they would make a good teaching session with trainees.",
+       "verdict": "know",
+       "url": "https://www.anzca.edu.au/safety-and-advocacy/standards-of-practice/professional-documents/prof-docs-get-involved"
+      }
+     ]
+    }
+   ],
+   "quickHits": [
+    {
+     "text": "ANZCA 2026.2 Final exam results are released on Thursday 12 Nov, after last week's Brisbane vivas.",
+     "source": "ANZCA",
+     "date": "2026-11-12",
+     "url": "https://www.anzca.edu.au/education-training/anaesthesia-training-program/anaesthesia-exams"
+    },
+    {
+     "text": "Mount Sinai's machine-learning delirium model held up at a second hospital (AUROC 0.91), and monthly delirium detection there roughly doubled. Positive predictive value was only about 1 in 4, though, and there are no outcome data.",
+     "source": "JAMA Network Open",
+     "date": "2026-11-04",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2026.42142"
+    },
+    {
+     "text": "ASA members are invited to help shape the Anaesthesia RVG review (members-only notice).",
+     "source": "Australian Society of Anaesthetists",
+     "date": "2026-11-02",
+     "url": "https://asa.org.au"
+    },
+    {
+     "text": "Reminder: submissions to the House inquiry into access to and affordability of medical specialists close on Friday 27 Nov.",
+     "source": "Australian Society of Anaesthetists",
+     "date": "2026-10-21",
+     "url": "https://asa.org.au/news-and-media/medical-specialist-inquiry-submissions-extended-to-27-november"
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-11-10",
+     "label": "Marcain 0.5% 50 mg/10 mL ampoules expected back"
+    },
+    {
+     "date": "2026-11-12",
+     "label": "ANZCA 2026.2 Final exam results"
+    },
+    {
+     "date": "2026-11-13",
+     "label": "WA ACE Country Conference, Pullman Bunker Bay Resort (13–15 Nov)"
+    },
+    {
+     "date": "2026-11-20",
+     "label": "ASA WA Part 3 Course (as listed in Issue 5; not re-checked); Dexamethasone Juno 4 mg/1 mL shortage expected to end"
+    },
+    {
+     "date": "2026-11-26",
+     "label": "ANZCA Perioperative Medicine SIG meeting, Hobart (26–28 Nov; not re-checked)"
+    },
+    {
+     "date": "2026-11-27",
+     "label": "Submissions close: House inquiry into access to and affordability of medical specialists"
+    },
+    {
+     "date": "2026-11-30",
+     "label": "Noradrenaline Juno 2 mg/2 mL deleted from the market"
+    },
+    {
+     "date": "2026-12-08",
+     "label": "ANZCA PS57 (duties of specialist anaesthetists) pilot feedback closes"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "ANZCA 2027.1 Primary special consideration applications close"
+    },
+    {
+     "date": "2026-12-11",
+     "label": "Xylocaine 2% jelly expected back"
+    },
+    {
+     "date": "2026-12-13",
+     "label": "Medsurge magnesium sulfate 50% shortage expected to end"
+    },
+    {
+     "date": "2026-12-17",
+     "label": "ANZCA 2027.1 Final special consideration applications close"
+    },
+    {
+     "date": "2026-12-21",
+     "label": "ANZCA PG21 (central venous lines) pilot feedback closes; PG03 follows on 27 Dec and PG31 on 29 Dec"
+    }
+   ],
+   "coverage": "Access was poor again. The bibliographic APIs (Crossref, OpenAlex, Europe PMC, PubMed search) and most publisher sites (NEJM, Lancet, BJA/ScienceDirect, Wiley, LWW) couldn't be read. Anaesthesia, Anesthesiology, Anesthesia & Analgesia, EJA, RAPM, JCA, BMJ, Annals of Surgery, BJS and Critical Care Medicine went essentially unchecked. OnScene numbers come from a detailed secondary summary rather than NEJM. DAPT-SHOCK-AMI (cangrelor vs ticagrelor in cardiogenic shock) was listed as published in the Lancet on 7 Nov, but we couldn't confirm the paper, so it's left out. Held over again because results still couldn't be read: the BJA esketamine and chronic pain after VATS RCT, the BJA fluid tolerance (venous congestion) ultrasound study after major GI surgery, and the A&A paper on perioperative calls for help. In-window BJA titles seen but not read include a cardiac output study using an automatic arm cuff (5 Nov) and an editorial on responding to intraoperative blood pressure targets (6 Nov). Two Intensive Care Medicine papers (5 Nov: a core outcome set for ventilation trials in acute brain injury, and a single-centre music therapy delirium RCT) couldn't be opened. TGA drug detail pages show no 'last updated' date and some listings look stale, so the tranexamic acid, lidocaine ampoule and oxytocin entries were left out; enoxaparin (Enoxaject) and DBL diazepam shortages on the critical list weren't covered in detail. The TGA recalls database, ANZCA news page and Medsafe weren't reachable."
+  },
   {
    "id": "2026-11-02",
    "number": 5,
